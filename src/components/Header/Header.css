@@ -1,0 +1,72 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 75%;
+    /* border: 1px solid red; */
+    max-width: 80em;
+    font-weight: bold;
+    /* margin-top: 2em; */
+}
+
+.header-background {
+    background-color: rgb(225, 221, 221);
+    padding-top: 2em;
+
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+
+    width: 10em;
+
+}
+
+.header-nav a {
+    color: #016267;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+    width: 75%;
+    align-items: center;
+    color: #016267;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 1em 0 0 0;
+}
+
+.online-course {
+    font-size: 1.5em;
+    margin-top: 0;
+
+}
+
+.hero {
+    display: flex;
+}
+
+.hero img {
+    width: 10em;
+    height: auto;
+    margin: 0 1em 0 0;
+
+}
+
+.hero-paragraphs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 800;
+}

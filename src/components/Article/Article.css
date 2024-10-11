@@ -1,0 +1,69 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 75%;
+    /* border: 1px solid red; */
+    max-width: 80em;
+    margin-top: 2em;
+
+}
+
+/* .article-content {
+    max-width: 60%;
+} */
+
+.article-content p,
+li,
+h2 {
+    max-width: 60%;
+}
+
+.article-content p,
+ul {
+    line-height: 1.5em;
+
+}
+
+.article-content h2 {
+    margin-bottom: 0;
+}
+
+/* Styles for team page */
+.article-team-list {
+    list-style: none;
+    font-weight: bold;
+    line-height: 2em;
+    margin-left: -2.5em;
+
+
+}
+
+.article-team-list-item {
+    list-style: none;
+    font-weight: bold;
+    margin-top: 1.5em;
+    display: flex;
+    /* margin-top: 1em; */
+}
+
+
+.article-team-list img {
+    width: 40px;
+    height: 40px;
+    margin-right: 1em;
+}
+
+
+/* Media Queries */
+
+
+@media only screen and (max-width: 768px) {
+
+    /* Adjust the width for mobile devices */
+    .article-content p,
+    li,
+    h2 {
+        max-width: 100%;
+    }
+}

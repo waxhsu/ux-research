@@ -1,0 +1,45 @@
+.GreenArticle {
+    background-color: #016267;
+    color: white;
+    margin: 0 auto;
+    /* border: 1px solid yellow; */
+
+
+}
+
+.GreenArticle-content {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+    height: 12em;
+    justify-content: center;
+    /* align-items: center; */
+    max-width: 80em;
+
+}
+
+.GreenArticle-content p {
+    font-weight: bold;
+    max-width: 60%;
+}
+
+.GreenArticle-content h1 {
+    font-weight: bold;
+    max-width: 60%;
+    margin-top: 0;
+}
+
+/* Mobile full width for articles */
+
+@media only screen and (max-width: 768px) {
+
+    /* Adjust the width for mobile devices */
+    .GreenArticle-content p {
+        max-width: 100%;
+    }
+
+    .GreenArticle-content h1 {
+        max-width: 100%;
+    }
+}
