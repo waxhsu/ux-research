@@ -7,7 +7,7 @@ export const HARDCORE_DETAILS = [
       topicDetails1_1: `You can’t measure success if you don’t know what your goal is.`,
       topicDetails1_2: `You’ll deliver great UX when your products and services exceed your users’ expectations and anticipate your customers’ needs. You’ll need the right metrics to know you’re on the right path. Those metrics come from the ultimate UX outcome: improving the lives of your customers, users, and anyone affected by your work. `,
       topicDetails1_3: `Discover how to create effective UX Outcomes so that…`,
-      topicDetails1_bullet1: `Your team and stakeholders are clearly on the same page about how delivering great UX improves people’s lives.`,
+      topicDetails1_bullet1: `Yashdfjklashjfdkmsahflsjkd.`,
       topicDetails1_bullet2: `You’ll move beyond the unhelpful practice of measuring outputs by focusing the team on outcomes.`,
       topicDetails1_bullet3: `You can show how the features of the next release are critical to your long-term UX vision.`,
   
