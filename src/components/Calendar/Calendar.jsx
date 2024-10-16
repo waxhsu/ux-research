@@ -18,7 +18,7 @@ export default function Calendar() {
         <div className='calendar'>
           {HARDCORE_DETAILS.map((classInfo, index) => {
               return (
-                <div className='container-cc flex' key={index}>
+                <div className='test123' key={index}>
                     <div id='scheduleCard'>
                         <div id='WeekNUM'>
                             <div className='weekInfo'>Week {classInfo.weekNum} of 4</div>
