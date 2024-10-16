@@ -1,6 +1,6 @@
 import React from "react";
 import './CourseSchedule.css'
-
+import Calendar from '../../components/Calendar/Calendar';
 
 
 export default function CourseSchedule() {
@@ -22,6 +22,7 @@ export default function CourseSchedule() {
             <span>Every session is recorded. <br />
                 You’ll have access to the recordings for 8 weeks.</span>
             <h1>Course Schedule</h1>
+            <Calendar />
         </section>
 
     )

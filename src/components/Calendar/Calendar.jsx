@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './Calendar.css';
 import { HARDCORE_DETAILS } from './CalendarData'
+import { COHORT_DATE_RANGE } from './CalendarData'
 import playButton1 from './playButton1.png'
 import playButton2 from './playButton2.png'
 
@@ -16,22 +17,27 @@ export default function Calendar() {
 
     return (
         <div className='calendar'>
+        <h2>Cohort: {COHORT_DATE_RANGE[0].start} - {COHORT_DATE_RANGE[0].end}</h2>
           {HARDCORE_DETAILS.map((classInfo, index) => {
               return (
                 <div className='test123' key={index}>
                     <div id='scheduleCard'>
                         <div id='WeekNUM'>
                             <div className='weekInfo'>Week {classInfo.weekNum} of 4</div>
+
+
+
                             {/* Odd Numbered Topic */}
                             <div id='oddTopicNumber' className='headerTitle' onClick={() => toggleDetails(index)}>
-                                <img 
-                                    src={playButton1} 
-                                    className={`scheduleIconImg ${expandedSections[index] ? 'rotated' : ''}`} 
-                                    alt='playButton1' 
-                                />
-                                <div className='classTitle'>{classInfo.topicTitle1} ·&nbsp;</div>
-                                <div className='clickDetails'>Click for Details</div>
+                                <div className='mobile-row'>
+                                    <img src={playButton1} className={`scheduleIconImg ${expandedSections[index] ? 'rotated' : ''}`} alt='playButton1' />
+                                    <div className='classTitle'>{classInfo.topicTitle1} ·&nbsp;</div>
+                                </div>
+                                <div>  
+                                    <div className='clickDetails'>Click for Details</div>
+                                </div>
                             </div>
+
                             {expandedSections[index] && (
                                 <>
                                     <div className='topicDetails'>
@@ -44,6 +50,7 @@ export default function Calendar() {
                                     </div>
                                 </>
                             )}
+
                             <div id='optionalTitle' className='subTitle'>
                                 <div className='optionDate'>{classInfo.topicTitle1_date1}</div>
                                 <div className='optionTitle'>{classInfo.topicTitle1_title1}</div>
@@ -52,18 +59,20 @@ export default function Calendar() {
                                 <div className='optionDate'>{classInfo.topicTitle1_date2}</div>
                                 <div className='optionTitle'>{classInfo.topicTitle1_title2}</div>
                             </div>
+                            {/* END Odd Numbered Topic */}
+
                             
-                            {/* Even Numbered Topic */}
+                            {/* START Even Numbered Topic */}
                             <div id='evenTopicNumber' className='headerTitle' onClick={() => toggleDetails(index + 0.1)}>
-                                <img 
-                                    src={playButton2} 
-                                    className={`scheduleIconImg ${expandedSections[index + 0.1] ? 'rotated' : ''}`} 
-                                    alt='playButton2' 
-                                />
-                                <div className='classTitle'>{classInfo.topicTitle2} ·&nbsp;</div>
-                                <div className='clickDetails'>Click for Details</div>
+                                <div className='mobile-row'>
+                                    <img src={playButton2} className={`scheduleIconImg ${expandedSections[index + 0.1] ? 'rotated' : ''}`} alt='playButton2' />
+                                    <div className='classTitle'>{classInfo.topicTitle2} ·&nbsp;</div>
+                                </div>
+                                {/* <div>   */}
+                                    <div className='clickDetails'>Click for Details</div>
+                                {/* </div> */}
                             </div>
-                            {/* Conditionally render topicDetails based on expandedSections */}
+                            
                             {expandedSections[index + 0.1] && (
                                 <>
                                     <div className='topicDetails'>
@@ -85,6 +94,7 @@ export default function Calendar() {
                                 <div className='optionDate'>{classInfo.topicTitle2_date2}</div>
                                 <div className='optionTitle'>{classInfo.topicTitle2_title2}</div>
                             </div>
+                            {/* END Even Numbered Topic */}
 
                         </div>
                     </div>
