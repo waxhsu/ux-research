@@ -64,12 +64,12 @@
     flex-direction: column;
     position: absolute;
     top: 60px;
-    right: 20px;
+    right: 0px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-    padding: 20px; /* Equal padding on all sides */
+    padding: 20px 0px 20px 25px; /* Equal padding on all sides */
     width: auto; /* Set width to auto to accommodate the longest text */
     min-width: 200px; /* Optional: set a minimum width */
   }
@@ -78,12 +78,20 @@
     display: flex; /* Show links when menu is open */
   }
 
-  .header-links a {
-    padding: 10px 0; /* Padding for the links themselves */
-    text-align: left; /* Align text to the left */
-    width: 100%; /* Make the link take up the full width of the container */
-    white-space: nowrap; /* Prevent text wrapping to maintain dynamic width */
-  }
+    .header-links a {
+        padding: 10px 10px 10px 10px; /* Reduce padding on the right */
+        text-align: left; /* Align text to the left */
+        width: 100%; /* Make the link take up the full width of the container */
+        white-space: nowrap; /* Prevent text wrapping */
+        text-decoration: none; /* Remove default underline */
+        color: #016267; /* Link color */
+    }
+
+    .header-links a:hover,
+    .header-links a:active {
+        text-decoration: underline; /* Add underline on hover and active */
+    }
+
 
   .hamburger {
     display: flex; /* Show hamburger icon on mobile */
