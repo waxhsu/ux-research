@@ -53,7 +53,8 @@
 
 
 .scheduleIconImg {
-    max-width: 2rem;
+    max-width: 1.75rem;
+    max-height: 1.75rem;
     padding: 0 10px;
     transition: transform 0.3s ease;
 }
@@ -65,12 +66,13 @@
 
 .classTitle {
     align-content: center;
+    padding-right: 1em;
 }
 
 .clickDetails {
+    padding: 0 .5em;
     font-weight: 400;
     text-decoration: underline;
-
 }
 
 
@@ -170,12 +172,14 @@
     #optionalTitle, #liveTopicTitle {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: left;
+        padding-left: 3em
     }
 
     .optionDate, .optionTitle {
         font-size: 14px;
         line-height: 1.2rem;
+        padding-right: 0;
     }
 
     .subTitle {
@@ -183,7 +187,7 @@
     }
 
     .clickDetails {
-        
+        display: none;
     }
 
 }

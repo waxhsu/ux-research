@@ -31,10 +31,10 @@ export default function Calendar() {
                             <div id='oddTopicNumber' className='headerTitle' onClick={() => toggleDetails(index)}>
                                 <div className='mobile-row'>
                                     <img src={playButton1} className={`scheduleIconImg ${expandedSections[index] ? 'rotated' : ''}`} alt='playButton1' />
-                                    <div className='classTitle'>{classInfo.topicTitle1} ·&nbsp;</div>
+                                    <div className='classTitle'>{classInfo.topicTitle1}</div>
                                 </div>
                                 <div>  
-                                    <div className='clickDetails'>Click for Details</div>
+                                    <div className='clickDetails'>Topic Details</div>
                                 </div>
                             </div>
 
@@ -66,10 +66,10 @@ export default function Calendar() {
                             <div id='evenTopicNumber' className='headerTitle' onClick={() => toggleDetails(index + 0.1)}>
                                 <div className='mobile-row'>
                                     <img src={playButton2} className={`scheduleIconImg ${expandedSections[index + 0.1] ? 'rotated' : ''}`} alt='playButton2' />
-                                    <div className='classTitle'>{classInfo.topicTitle2} ·&nbsp;</div>
+                                    <div className='classTitle'>{classInfo.topicTitle2}</div>
                                 </div>
                                 {/* <div>   */}
-                                    <div className='clickDetails'>Click for Details</div>
+                                    <div className='clickDetails'>Topic Details</div>
                                 {/* </div> */}
                             </div>
                             

@@ -1,11 +1,10 @@
 .article {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 4rem auto;
     width: 75%;
     /* border: 1px solid red; */
     max-width: 80em;
-    margin-top: 2em;
 
 }
 
@@ -17,6 +16,7 @@
 li,
 h2 {
     max-width: 60%;
+    line-height: 1.5em;
 }
 
 .article-content p,
@@ -25,7 +25,8 @@ ul {
 }
 
 .article-content h2 {
-    margin-bottom: 0;
+    margin: 0;
+    line-height: 1.5em;
 }
 
 /* Styles for team page */

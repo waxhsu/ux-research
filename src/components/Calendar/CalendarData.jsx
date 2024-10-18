@@ -9,7 +9,7 @@ export const HARDCORE_DETAILS = [
     {
       weekNum: '1',
 
-      topicTitle1: 'Topic 1: Align Your Teams to Great UX with UX Outcomes',
+      topicTitle1: 'Align Your Teams to Great UX with UX Outcomes',
       topicDetails1_1: `You can’t measure success if you don’t know what your goal is.`,
       topicDetails1_2: `You’ll deliver great UX when your products and services exceed your users’ expectations and anticipate your customers’ needs. You’ll need the right metrics to know you’re on the right path. Those metrics come from the ultimate UX outcome: improving the lives of your customers, users, and anyone affected by your work.`,
       topicDetails1_3: `Discover how to create effective UX Outcomes so that…`,
@@ -23,7 +23,7 @@ export const HARDCORE_DETAILS = [
       topicTitle1_title2: 'Live Coaching with Jared',
       
   
-      topicTitle2: 'Topic 2: Reach Your Objectives with Your UX Success Metric',
+      topicTitle2: 'Reach Your Objectives with Your UX Success Metric',
       topicDetails2_1: `You can’t measure success if you don’t know what your goal is.`,
       topicDetails2_2: `Everyone needs to be focused on the same goals. You’ll define your OKR objectives at the precise moment your designs will improve your users' and customers’ lives. There’s nothing like clarity to keep everybody on the same page.`,
       topicDetails2_3: `Explore how to create powerful UX Success Metrics so that…`,
@@ -39,7 +39,7 @@ export const HARDCORE_DETAILS = [
     {
       weekNum: '2',
 
-      topicTitle1: 'Topic 3: Achieve Key Results with Your UX Progress Metrics',
+      topicTitle1: 'Achieve Key Results with Your UX Progress Metrics',
       topicDetails1_1: `High-value, audacious goals take time. We need to show progress. `,
       topicDetails1_2: `Progress happens incrementally and, all too often, invisibly. Identify OKR key results that show your team's work while simultaneously promoting the improvements and benefits your designs are accumulating. Build up your team’s value as your users receive better-designed experiences.`,
       topicDetails1_3: `Discover how to create insightful UX Progress Metrics so that…`,
@@ -53,7 +53,7 @@ export const HARDCORE_DETAILS = [
       topicTitle1_title2: 'Live Coaching with Jared',
       
 
-      topicTitle2: 'Topic 4: Eliminate the Costs of Poor UX with Problem-Value Metrics',
+      topicTitle2: 'Eliminate the Costs of Poor UX with Problem-Value Metrics',
       topicDetails2_1: `Grow executive support for high-value UX efforts. `,
       topicDetails2_2: `Poor UX causes problems for your users and customers. And it often comes back to haunt your organization’s bottom line through the costs of support, training, and lost sales. Now, you can accurately show how much these costs continue to accumulate.`,
       topicDetails2_3: `Explore how to create influential Problem-Value Metrics so that…`,
@@ -70,7 +70,7 @@ export const HARDCORE_DETAILS = [
     {
       weekNum: '3',
 
-      topicTitle1: 'Topic 5: Raise UX’s Visibility with Outcome-driven UX Metrics',
+      topicTitle1: 'Raise UX’s Visibility with Outcome-driven UX Metrics',
       topicDetails1_1: `Make UX metrics a core component of your organization’s culture. `,
       topicDetails1_2: `Tie your UX outcomes directly to the product roadmap. Show how every new capability and feature is on the path to becoming the product everyone wants to own and the service everyone wants to use. Influence the vital strategic decisions that impact user experiences.`,
       topicDetails1_3: `Discover how to create strategic UX metrics so that…`,
@@ -84,7 +84,7 @@ export const HARDCORE_DETAILS = [
       topicTitle1_title2: 'Live Coaching with Jared',
       
 
-      topicTitle2: 'Topic 6: Create Your UX Outcomes',
+      topicTitle2: 'Create Your UX Outcomes',
       topicDetails2_1: `Bring all the essential players together to identify critical UX Outcomes`,
       topicDetails2_2: `Your Outcome-driven UX Metrics become far more powerful when you’ve gotten buy-in from the vital stakeholders and champions. You’ll discover how to conduct a special UX outcome workshop to pinpoint the improvements in the lives of your users and customers.`,
       topicDetails2_3: `Explore the best practices for crafting UX Outcomes so that`,
@@ -102,7 +102,7 @@ export const HARDCORE_DETAILS = [
     {
       weekNum: '4',
 
-      topicTitle1: 'Topic 7: Identify Your Team’s Target Metrics',
+      topicTitle1: 'Identify Your Team’s Target Metrics',
       topicDetails1_1: `Use UX metrics as a wedge to sell better UX research.`,
       topicDetails1_2: `You’ll likely need to up your UX research game to deliver high-powered UX metrics. You can only know what to improve if you know what’s currently in need of improvement. Demonstrate the power of strategic UX research.`,
       topicDetails1_3: `Uncover how thorough UX research improves success so that…`,
@@ -116,7 +116,7 @@ export const HARDCORE_DETAILS = [
       topicTitle1_title2: 'Live Coaching with Jared',
       
 
-      topicTitle2: 'Topic 8: Integrate Your UX Metrics into Organizational Goals',
+      topicTitle2: 'Integrate Your UX Metrics into Organizational Goals',
       topicDetails2_1: `Make your organization an innovative market leader`,
       topicDetails2_2: `A UX vision describes what your experiences will be like in the distant future. You’ll inspire your organization to deliver exceptional products and services for years by crafting a clear vision. You instantly merge future OKR objectives into a human-centered goal with broad support.`,
       topicDetails2_3: `Discover how a compelling UX vision drives your organization so that…`,

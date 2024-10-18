@@ -1,11 +1,10 @@
 .courseSchedule {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 3rem auto;
     width: 75%;
     /* border: 1px solid red; */
     max-width: 80em;
-    margin-top: 1em;
 
 }
 
@@ -18,7 +17,7 @@ h4 {
 .courseSchedule p,
 ul,
 h4 {
-    line-height: 1.5em;
+    /* line-height: 1.4em; */
 
 }
 

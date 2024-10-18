@@ -11,26 +11,27 @@
 
 .header-background {
     background-color: rgb(225, 221, 221);
-    padding-top: 2em;
-
+    padding-bottom: 2em;
+    background-image: url("../../../public/images/square-background.png");
+    
 }
 
 .header-nav {
+    top: 0;
     display: flex;
+    padding: 1.5em 12.5%;
     justify-content: space-between;
+    background-color: white;
 }
 
 .header-logo {
-
     width: 10em;
-
 }
 
 .header-nav a {
     color: #016267;
     font-weight: bold;
     text-decoration: none;
-
 }
 
 .header-links {
@@ -50,7 +51,6 @@ h1 {
 .online-course {
     font-size: 1.5em;
     margin-top: 0;
-
 }
 
 .hero {
@@ -61,7 +61,6 @@ h1 {
     width: 10em;
     height: auto;
     margin: 0 1em 0 0;
-
 }
 
 .hero-paragraphs {
@@ -70,3 +69,10 @@ h1 {
     justify-content: center;
     font-weight: 800;
 }
+
+
+
+
+
+
+
