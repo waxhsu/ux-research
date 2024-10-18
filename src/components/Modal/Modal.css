@@ -2,7 +2,10 @@
     display: flex;
     flex-direction: column;
     border-radius: 1em;
-    padding: 0.5em;
+    padding: 1em;
+    /* currently only 1 cochort to join */
+    /* max-height: 25em; */
+    /* when there's 3 cohorts to join */
     max-height: 35em;
     font-weight: 600;
     box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.25);
@@ -18,9 +21,16 @@
 
 }
 
+.cohort-paragraphs > p {
+    /* border: red solid 2px; */
+    margin: 0;
+}
 
 .cohort-1 {
     display: flex;
+    align-items: center;
+    padding: 0.75em 0;
+    justify-content: space-between;
 }
 
 .cohort-paragraphs {
@@ -33,7 +43,9 @@ a {
     color: black;
 }
 
-.cohort-date {}
+.cohort-date {
+    
+}
 
 .cohort-1 button {
     background: #9B0E5B;

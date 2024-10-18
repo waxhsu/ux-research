@@ -3,8 +3,26 @@ body {
   border: 1px solid red;
   margin: 0 auto; */
   font-family: "Open Sans", sans-serif;
+}
+
+/* UNIVERSAL1.3em for p */
+* p {
+  line-height: 1.5em;
+}
+
+* span {
+  line-height: 1.5em;
+}
+
+h2 {
 
 }
+
+h3, h4 {
+  line-height: 1.5em;
+}
+
+
 
 .container {
   display: flex;

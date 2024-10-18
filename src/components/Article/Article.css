@@ -1,11 +1,10 @@
 .article {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 4rem auto;
     width: 75%;
     /* border: 1px solid red; */
     max-width: 80em;
-    margin-top: 2em;
 
 }
 
@@ -17,16 +16,17 @@
 li,
 h2 {
     max-width: 60%;
+    line-height: 1.5em;
 }
 
 .article-content p,
 ul {
     line-height: 1.5em;
-
 }
 
 .article-content h2 {
-    margin-bottom: 0;
+    margin: 0;
+    line-height: 1.5em;
 }
 
 /* Styles for team page */
@@ -53,6 +53,73 @@ ul {
     height: 40px;
     margin-right: 1em;
 }
+
+
+
+
+
+
+
+
+
+.TEMP-pricing-content{
+    width: 75%;
+}
+
+.TEMP-pricing-content ul{
+    /* line-height: 2em; */
+    margin-left: -1.5em;
+    /* font-weight: bold; */
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.TEMP-pricing-content p, ul {
+    line-height: 1.5em;
+}
+
+
+.pricing-list-image {
+    width: 40px;
+    height: 40px;
+    margin-right: 1em;
+
+}
+
+
+.TEMP-pricing-content li {
+    /* border: 1px solid red; */
+    margin-top: 1.5em;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Media Queries */

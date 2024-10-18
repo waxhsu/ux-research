@@ -108,7 +108,8 @@
 }
 
 .hero img {
-  width: 10em;
+  max-width: 10em;
+  max-height: 10em;
   height: auto;
   margin: 0 1em 0 0;
 }
@@ -117,7 +118,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-weight: 800;
+  font-weight: 700;
+}
+
+.hero-paragraphs p {
+    margin: 0.25em;
+    font-size: 14px
 }
 
 /* Styles for the main heading and subtitle */

@@ -12,7 +12,7 @@
     flex-direction: column;
     width: 75%;
     margin: 0 auto;
-    height: 12em;
+    height: 16em;
     justify-content: center;
     /* align-items: center; */
     max-width: 80em;
@@ -21,6 +21,7 @@
 
 .GreenArticle-content p {
     font-weight: bold;
+    line-height: 1.5em;
     max-width: 60%;
 }
 
