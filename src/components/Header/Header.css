@@ -1,58 +1,90 @@
+/* Basic styles for the header */
 .header {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: 75%;
-    /* border: 1px solid red; */
     max-width: 80em;
     font-weight: bold;
-    /* margin-top: 2em; */
 }
 
 .header-background {
     background-color: rgb(225, 221, 221);
     padding-top: 2em;
-
 }
 
 .header-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 
+/* Logo styles */
 .header-logo {
-
     width: 10em;
-
 }
 
+/* Link styles */
 .header-nav a {
     color: #016267;
     font-weight: bold;
     text-decoration: none;
-
 }
 
+/* Default styles for the links */
 .header-links {
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid blue; */
     width: 75%;
     align-items: center;
     color: #016267;
 }
 
-h1 {
-    font-size: 3em;
-    margin: 1em 0 0 0;
+/* Hamburger menu styles */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
 }
 
-.online-course {
-    font-size: 1.5em;
-    margin-top: 0;
-
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #016267;
+    transition: 0.3s;
 }
 
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .header-links {
+        display: none; /* Hide links on mobile by default */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: white;
+        width: 200px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+
+    .header-links.open {
+        display: flex; /* Show links when menu is open */
+    }
+
+    .hamburger {
+        display: flex; /* Show hamburger icon on mobile */
+    }
+
+    .header-nav {
+        flex-direction: row;
+    }
+}
+
+/* Styling for the Hero section */
 .hero {
     display: flex;
 }
@@ -61,7 +93,6 @@ h1 {
     width: 10em;
     height: auto;
     margin: 0 1em 0 0;
-
 }
 
 .hero-paragraphs {
@@ -69,4 +100,15 @@ h1 {
     flex-direction: column;
     justify-content: center;
     font-weight: 800;
+}
+
+/* Styles for the main heading and subtitle */
+h1 {
+    font-size: 3em;
+    margin: 1em 0 0 0;
+}
+
+.online-course {
+    font-size: 1.5em;
+    margin-top: 0;
 }
