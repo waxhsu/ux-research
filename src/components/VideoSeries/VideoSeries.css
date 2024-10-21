@@ -1,0 +1,23 @@
+.video-series {
+
+    margin-bottom: 3em;
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .video-series {
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+    }
+
+    /* .pricing-content ul {
+        width: 100%;
+    } */
+}
