@@ -23,7 +23,7 @@ export default function Modal() {
                 </div>
                 <div className="cohort-1">
                     <div className="cohort-paragraphs">
-                        <p> <b>Nov 18 - Dec 18</b></p>
+                        <p> <b>Nov 18 - Dec 19</b></p>
                         <p><a href="">See Schedule</a></p>
                     </div>
                     <button className="btn-shadow">Join Cohort</button>
