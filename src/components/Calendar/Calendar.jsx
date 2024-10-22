@@ -5,7 +5,6 @@ import { COHORT_DATE_RANGE } from './CalendarData'
 import playButton1 from './playButton1.png'
 import playButton2 from './playButton2.png'
 
-
 export default function Calendar() {
     const [expandedSections, setExpandedSections] = useState({});
 
