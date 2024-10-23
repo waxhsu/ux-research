@@ -49,6 +49,8 @@ export default function October() {
             <SpiffyCheckout />
 
             <Link to="/octoberschedule">OCTOBER SCHEDULE</Link>
+            <Link to="/novemberschedule">NOVEMBER SCHEDULE</Link>
+            <Link to="/decemberchedule">DECEMBEr SCHEDULE</Link>
 
             {/* <Calendar />
 // Add component with Buttons here

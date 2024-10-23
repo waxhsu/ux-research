@@ -8,7 +8,7 @@ import Testimonials from '../components/Testimonials/Testimonials';
 import CourseSchedule from '../components/CourseSchedule/CourseSchedule';
 import JaredSpool from '../components/JaredSpool/JaredSpool';
 import Pricing from '../components/Pricing/Pricing';
-import Calendar from '../components/Calendar/Calendar';
+import Calendar from '../components/Calendar/CalendarOct';
 import VideoSeries from '../components/VideoSeries/VideoSeries';
 import Footer from '../components/Footer/Footer';
 import Modal from "../components/Modal/Modal";

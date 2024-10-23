@@ -1,6 +1,6 @@
 import React from "react";
 import './CourseSchedule.css'
-import Calendar from '../../components/Calendar/Calendar';
+import Calendar from '../Calendar/CalendarOct';
 
 
 export default function CourseSchedule() {
