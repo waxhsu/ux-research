@@ -7,6 +7,7 @@ import Outcomes from './pages/Outcomes';
 import October from './pages/October';
 import Teams from './pages/Teams';
 import Topics from './pages/Topics';
+import OctoberSchedule from './pages/OctoberSchedule';
 
 
 
@@ -53,6 +54,11 @@ function App() {
         <Route path="/october" element={<October />} />
         <Route path="/teams" element={<Teams />} />
         <Route path="/topics" element={<Topics />} />
+
+
+        <Route path="/octoberschedule" element={<OctoberSchedule />} />
+
+
       </Routes>
     </Router>
   );
