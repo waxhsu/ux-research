@@ -10,16 +10,16 @@ import Modal from "../components/Modal/Modal";
 import LeftContent from "../components/LeftContent/LeftContent";
 import TestComponent from "../components/TestComponent/TestComponent";
 import SpiffyCheckout from "../components/SpiffyCheckout/SpiffyCheckout";
-import Calendar from "../components/Calendar/Calendar";
+import CalendarNov from "../components/Calendar/CalendarNov";
 
-export default function OctoberSchedule() {
+export default function ScheduleNovember() {
     return (
-        <div className="OctoberSchedule">
+        <div className="ScheduleNovember">
             <Header />
             < GreenArticle >
-                <h1>Join October Cohort</h1>
+                <h1>Join November Cohort</h1>
             </GreenArticle >
-            < Calendar />
+            < CalendarNov />
             < Footer />
         </div >
 

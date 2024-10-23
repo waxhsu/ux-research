@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './Calendar.css';
-import { HARDCORE_DETAILS } from './CalendarData'
-import { COHORT_DATE_RANGE } from './CalendarData'
+import { HARDCORE_DETAILS_NOVEMBER } from './CalendarData'
+import { COHORT_DATE_RANGE_NOVEMBER } from './CalendarData'
 import playButton1 from './playButton1.png'
 import playButton2 from './playButton2.png'
 
@@ -17,8 +17,8 @@ export default function Calendar() {
 
     return (
         <div className='calendar'>
-        <h2>Cohort: {COHORT_DATE_RANGE[0].start} - {COHORT_DATE_RANGE[0].end}</h2>
-          {HARDCORE_DETAILS.map((classInfo, index) => {
+        <h2>Cohort: {COHORT_DATE_RANGE_NOVEMBER[0].start} - {COHORT_DATE_RANGE_NOVEMBER[0].end}</h2>
+          {HARDCORE_DETAILS_NOVEMBER.map((classInfo, index) => {
               return (
                 <div className='test123' key={index}>
                     <div id='scheduleCard'>
