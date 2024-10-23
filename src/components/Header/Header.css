@@ -11,6 +11,7 @@
 .header-background {
   background-color: rgb(225, 221, 221);
   padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .header-nav {
@@ -30,6 +31,7 @@
   color: #016267;
   font-weight: bold;
   text-decoration: none;
+  padding-left: 1em;
 }
 
 /* Default styles for the links */
@@ -123,7 +125,7 @@
 
 .hero-paragraphs p {
     margin: 0.25em;
-    font-size: 14px
+    font-size: 16px
 }
 
 /* Styles for the main heading and subtitle */
