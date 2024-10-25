@@ -21,8 +21,8 @@ export default function October() {
             </GreenArticle >
             <TestComponent >
                 <div className="width-500">
-                    <p><b>Cohort: Nov 5 - Dec 3</b></p>
-                    <p><b>UPDATE New Start Date For Cohort Previously Starting Oct 29.</b></p>
+                    <h3><b>Cohort: Nov 5 - Dec 3</b></h3>
+                    <h3><b>UPDATE New Start Date For Cohort Previously Starting Oct 29.</b></h3>
                     <h2>Develop your own organization’s Outcome-driven UX Metrics.</h2>
                     <p>Join us to complete your journey with metrics that will <b>drive your organization to deliver better-designed products and services.</b></p>
                     <p>You won’t make up imaginary, over-simplified metrics for fake companies and products in this intensive. Instead, you (and your team, if you bring them along) will roll up your sleeves and identify the critical metrics for your products and services.</p>
