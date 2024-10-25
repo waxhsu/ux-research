@@ -19,9 +19,9 @@
 
 }
 
-.width-500 {
-    width: 500px;
-    padding-right: 80px;
+.width-50 {
+    width: 70em;
+    padding-left: 2em;
 }
 
 .test-component-content-container {
@@ -35,6 +35,7 @@
     width: 300px;
     margin-top: 2em;
     background-color: white;
+    padding-left: 2em;
 
 }
 

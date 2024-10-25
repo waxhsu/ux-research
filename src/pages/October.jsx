@@ -21,6 +21,8 @@ export default function October() {
             </GreenArticle >
             <TestComponent >
                 <div className="width-500">
+                    <p><b>Cohort: Nov 5 - Dec 3</b></p>
+                    <p><b>UPDATE New Start Date For Cohort Previously Starting Oct 29.</b></p>
                     <h2>Develop your own organization’s Outcome-driven UX Metrics.</h2>
                     <p>Join us to complete your journey with metrics that will <b>drive your organization to deliver better-designed products and services.</b></p>
                     <p>You won’t make up imaginary, over-simplified metrics for fake companies and products in this intensive. Instead, you (and your team, if you bring them along) will roll up your sleeves and identify the critical metrics for your products and services.</p>
@@ -32,16 +34,17 @@ export default function October() {
             </TestComponent >
             <TestComponent>
                 <div className="">
-                    <h2>Choose to sign up as an Individual or a Team Member</h2>
-                    <p>You’ll get the most out of your workshop if you come with your team.</p>
 
-                    <p><b>As a team, you’ll develop your Outcome-driven UX Metrics plan together.</b>You’ll start drafting the blueprints for what change will look like across your organization. You’ll come away from the intensive with your own custom approach to UX Vision that your entire team can use.</p>
+                    <h2>Choose to sign up as an Individual or a Team Member</h2>
+                    <p>You’ll get the most out of your course if you come with your team.</p>
+
+                    <p><b>As a team, you’ll develop your Outcome-driven UX Metrics together. </b>You’ll identify the most effective UX metrics to tell your teams’ story. You’ll come away from the course with your own custom approach to UX Metrics that your entire team can use.</p>
                     <p><b>Each team member saves $100 on their registration when they sign up as a team member.</b></p>
                     <p>Each team member must purchase their registration separately.</p>
                     <p>Whichever you choose, team or individual, we’ll give you our full support.</p>
                 </div>
 
-                <div className="">
+                <div className="width-50">
                     <h2>Currently out of work?
                         We’ve got you.</h2>
                     <p><b>We’re offering $199 registrations for our out-of-work colleagues. </b></p>

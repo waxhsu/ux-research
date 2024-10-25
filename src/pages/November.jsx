@@ -33,15 +33,15 @@ export default function November() {
             <TestComponent>
                 <div className="">
                     <h2>Choose to sign up as an Individual or a Team Member</h2>
-                    <p>You’ll get the most out of your workshop if you come with your team.</p>
+                    <p>You’ll get the most out of your course if you come with your team.</p>
 
-                    <p><b>As a team, you’ll develop your Outcome-driven UX Metrics plan together.</b>You’ll start drafting the blueprints for what change will look like across your organization. You’ll come away from the intensive with your own custom approach to UX Vision that your entire team can use.</p>
+                    <p><b>As a team, you’ll develop your Outcome-driven UX Metrics together. </b>You’ll identify the most effective UX metrics to tell your teams’ story. You’ll come away from the course with your own custom approach to UX Metrics that your entire team can use.</p>
                     <p><b>Each team member saves $100 on their registration when they sign up as a team member.</b></p>
                     <p>Each team member must purchase their registration separately.</p>
                     <p>Whichever you choose, team or individual, we’ll give you our full support.</p>
                 </div>
 
-                <div className="">
+                <div className="width-50">
                     <h2>Currently out of work?
                         We’ve got you.</h2>
                     <p><b>We’re offering $199 registrations for our out-of-work colleagues. </b></p>
