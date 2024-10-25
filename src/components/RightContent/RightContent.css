@@ -21,10 +21,16 @@
 
 }
 
-.right-content p {
-    /* font-weight: 600; */
+.right-content li {
+    max-width: 100%;
 }
 
+
+.outcomes-to-topics-link {
+    font-weight: 700;
+    /* text-decoration: none; */
+    /* margin-bottom: 10px; */
+}
 
 @media only screen and (max-width: 768px) {
 

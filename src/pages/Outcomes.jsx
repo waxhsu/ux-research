@@ -14,6 +14,7 @@ import TestComponent from "../components/TestComponent/TestComponent";
 
 import Footer from "../components/Footer/Footer";
 import Pricing from "../components/Pricing/Pricing";
+import { Link } from "react-router-dom";
 
 
 export default function Outcomes() {
@@ -21,33 +22,36 @@ export default function Outcomes() {
         <div className="outcomes">
             <Header />
             < GreenArticle >
-                <h1>Why UX Outcomes?</h1>
+                <h1>Why use Outcome-driven UX Metrics?</h1>
             </GreenArticle >
-            <Article >
-                <h2>Why develop your own organization’s Outcome-driven UX Metrics?</h2>
-                <p><b>Outcome-Driven UX Metrics</b>  is our radical approach to combating the issues caused by conventional metrics. They focus your entire organization to…</p>
-
-                <ul>
-                    <li>Define organization-wide UX goals that capture the attention of your stakeholders and executives.</li>
-                    <li>Elevate “improving your customers’ and users’ lives” to become a top organization objective.</li>
-                    <li>Take the lead on measuring and reporting the organization’s progress with the full support of your senior management.</li>
-                </ul>
-                <p><b>We have eight topics on Outcome-Driven UX Metrics.</b> Dive into what we cover in each topic.</p>
-            </Article >
+            <TestComponent >
+                <div>
+                    <h2>The most effective metrics tell compelling stories.</h2>
+                    <p>Great metrics describe how you and your team are increasing the value of your products and services for customers, helping your business achieve its top priorities, and making the world better in the process.</p>
+                    <p>For UX work, you want metrics showing how a great user experience has increased the value your customers and users receive. You want to show how investing in great UX has paid off by hitting business targets with great returns. And you want your metrics to describe how you’re improving the lives of your customers and users.
+                    </p>
+                </div>
+                <div>
+                    <Modal />
+                </div>
+            </TestComponent >
             <LeftContent>
 
                 <div className="">
-                    <h2>Outcome-driven UX Metrics makes your work visible.</h2>
-                    <p>You and your team work hard to improve things for your users, customers, and employees. Yet, it seems nobody sees how hard you labor.</p>
+                    <h2>Not every metric helps you. Some even harm your efforts.
+                    </h2>
+                    <p>Unfortunately, you can’t do that with just any metric. The metrics that UX folk commonly use generally don’t tell attention-grabbing stories.
+                    </p>
 
-                    <p>How visible are your UX efforts?</p>
+                    <p>Metrics like the time an average user spends on a page, click-through rates, bounce rates, or even conversion rates only indicate what someone did, not whether they had a great experience while doing it. For example, you don’t know if a longer time on a page helped the customer understand your offerings or if the page was confusing and difficult to navigate. Both would take longer and make for an unclear metric without a good story.
+                    </p>
 
-                    <p>Do your stakeholders see how vital your work is? Are they seeing the benefits of delivering exceptional UX?</p>
+                    <p>Measurements of how users feel about you, like their satisfaction (C-SAT), their loyalty (Net Promoter Score), or their assessment of the design’s usability (System Usability Score), don’t tell you anything about the experience your users are having. Their lack of definition can’t separate a poor experience from a bad day with nothing to do with you. And they don’t guide you on what to do differently in your design.
+                    </p>
 
-                    <p>Do your executives know the value that your team brings to your customers and users? Do they understand how delivering poor UX holds your organization back?</p>
-                    <p>You can’t expect executives and stakeholders to invest in and prioritize your team’s efforts without making your UX work visible.</p>
+                    <p>UX folks pick these metrics not because they’re effective at telling a compelling story but because they are easy to generate data for. Unfortunately, these metrics don’t help you make your case about your UX efforts’ significant contributions to your organization’s success.
+                    </p>
 
-                    <p>Delivering a great user experience will contribute to every essential business objective. Yet, how can you drive your organization to consistently deliver great UX in every product and service when the UX is invisible? </p>
                 </div>
                 <div>
                     <img src="/images/goals.png" alt="Jared" className="left-content-image" />
@@ -60,20 +64,27 @@ export default function Outcomes() {
                     <img src="/images/stopwatch.png" alt="Jared" className="left-content-image" />
                 </div>
                 <div className="">
-                    <h2>Visibility is your number one UX leadership priority.</h2>
-                    <p>What are you doing to make UX visible in your organization?</p>
+                    <h2>Outcome-driven UX Metrics focus on the users’ experience.</h2>
+                    <p>You will start with your team’s current UX outcomes when you craft your outcome-driven UX metrics. These outcome statements describe the improvements you’ll make in the lives of your users and customers.
+                    </p>
 
-                    <p>How do you make sure that, at all levels across your organization, UX efforts are seen as a significant strategic contributor to what your organization is working to accomplish?</p>
+                    <p>Here are some examples of how teams have used outcome-driven UX metrics to tell stories of their contributions and successes:
+                    </p>
+                    <ul>
+                        <li>A UX team working on electronic healthcare records crafted outcome-driven UX metrics that told the story of how doctors now spend more time with patients and less time entering data into the database. Their metrics showed that time with patients increased while time entering data decreased due to the team’s improvements in the system.
+                        </li>
+                        <li>Another team working on a Customs port-of-entry logistics system used their outcome-driven UX metrics to share how their design changes, along with new API integration, reduced port inspection times by more than a million hours in one year, which reduced end-customer delivery delays and enhanced their customers’ supply-chain monitoring.
+                        </li>
+                        <li>A team working on an in-classroom product that monitors student progress used outcome-driven UX metrics to demonstrate how teachers could focus more on students struggling the most with new lessons. Their metrics became instrumental in boosting sales to new school districts.
+                        </li>
+                    </ul>
 
-                    <p><b>UX Metrics make the invisible visible.</b> <br />
-                        Effective UX metrics track the critical improvements to the user experience of your products or services.</p>
+                    <p>Outcome-driven UX metrics tell stories about the real-life improvements that users and customers see from better UX. Conventional UX metrics, like time on page or customer satisfaction, don’t come close to having the same impact.
+                    </p>
 
-                    <p>With robust metrics, your UX team’s work and the benefits that come from that work become highly visible. UX metrics make your work visible to your stakeholders, to your executives, and across your organization.</p>
-                    <p><b>Not all UX metrics are equal.</b> <br />
-                        We hear about UX metrics often. They sometimes have fancy names, such as HEART, SUS, Net Promoter Score, time on page, conversion rate, task time, satisfaction, or sentiment analysis. </p>
-                    <p>These conventional metrics are what teams gravitate to. Unfortunately, these metrics do not make their work more visible. </p>
-                    <p>Conventional metrics embody magical thinking. These metrics don’t help your organization see the value of UX. They don’t make your UX effort more visible.</p>
-                    <p>They often end up hiding the real achievements the team has had because these conventional What good is it doing if your metrics do not show improvements in the users’ experiences? Sometimes, it’s not clear what they show. (We’re looking at you, Net Promoter Score.)</p>
+                    <p>If you want everyone in your organization to see the benefit of investing in great UX, you need outcome-driven UX metrics to tell your story.
+                    </p>
+
                 </div>
             </RightContent>
 

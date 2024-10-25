@@ -16,6 +16,9 @@
 }
 
 
+.left-content li {
+    max-width: 100%;
+}
 
 .left-content-image {
     width: 15em;

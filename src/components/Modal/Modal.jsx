@@ -1,5 +1,6 @@
 import React from "react"
 import "./Modal.css"
+import { Link } from "react-router-dom"
 
 export default function Modal() {
     return (
@@ -17,30 +18,31 @@ export default function Modal() {
                 <div className="cohort-1">
                     <div className="cohort-paragraphs">
                         <p><b>Oct 28 - Nov 21</b></p>
-                        <p><a href="">See Schedule</a></p>
+                        <Link to="/octoberschedule">See Schedule</Link>
                     </div>
-                    <button className="btn-shadow">Join Cohort</button>
+                    {/* <button className="btn-shadow">  <Link to="/october" className="modal-button-link">Join Cohort</Link></button> */}
+                    <button className="btn-shadow">  <a className="modal-button-link" href="https://centercentre.spiffy.co/checkout/ux-metrics-oct#pop">Join Cohort</a></button>
                 </div>
                 <div className="cohort-1">
                     <div className="cohort-paragraphs">
                         <p> <b>Nov 18 - Dec 19</b></p>
-                        <p><a href="">See Schedule</a></p>
+                        <Link to="/novemberschedule">See Schedule</Link>
                     </div>
-                    <button className="btn-shadow">Join Cohort</button>
+                    <button className="btn-shadow">  <Link to="/november" className="modal-button-link">Join Cohort</Link></button>
                 </div>
                 <div className="cohort-1">
                     <div className="cohort-paragraphs">
                         <p><b>Dec 10 - Jan 17</b></p>
-                        <p><a href="">See Schedule</a></p>
+                        <Link to="/decemberschedule">See Schedule</Link>
                     </div>
-                    <button className="btn-shadow" > <a href=""></a>Join Cohort</button>
+                    <button className="btn-shadow">  <Link to="/december" className="modal-button-link">Join Cohort</Link></button>
                 </div>
 
 
             </div>
             <span>8 or more team members?</span>
             <br />
-            <span><a href="">Explore private team courses</a></span>
+            <Link to="/teams">Explore private team courses</Link>
         </div>
 
     )
