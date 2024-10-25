@@ -23,17 +23,19 @@ export default function Teams() {
                 <h1>Sign Up Your Team</h1>
             </GreenArticle>
             <Article>
-                <h2>UX Metrics to drive your entire organization.</h2>
-                <p>Focus your team and executives on improving your customers’ lives through visible outcomes your entire team and stakeholders can measure and see.</p>
-                <p>Get much more out of implementing your Outcome-driven UX Metrics by involving your larger team.</p>
-                <ul className="article-team-list">
-                    <li className="article-team-list-item">
-                        <img src="./images/bubble.png" alt="speech bubble" /> For Less than 8 Team Members: Join a Public Course
-                    </li>
-                    <li className="article-team-list-item">
-                        <img src="./images/bubble-star.png" alt="speech bubble with a star" /> For More than 8 Team Members: Plan a Private Workshop
-                    </li>
-                </ul>
+                <div className="article-teams">
+                    <h2>UX Metrics to drive your entire organization.</h2>
+                    <p>Focus your team and executives on improving your customers’ lives through visible outcomes your entire team and stakeholders can measure and see.</p>
+                    <p>Get much more out of implementing your Outcome-driven UX Metrics by involving your larger team.</p>
+                    <ul className="article-team-list">
+                        <li className="article-team-list-item">
+                            <img src="./images/bubble.png" alt="speech bubble" /> For Less than 8 Team Members: Join a Public Course
+                        </li>
+                        <li className="article-team-list-item">
+                            <img src="./images/bubble-star.png" alt="speech bubble with a star" /> For More than 8 Team Members: Plan a Private Workshop
+                        </li>
+                    </ul>
+                </div>
             </Article>
             <Testimonials>
                 <p>Wow, our team’s time with Jared had been a whirlwind of learning and development!

@@ -39,10 +39,10 @@ export default function Header() {
 
                     {/* Links */}
                     <div className={`header-links ${menuOpen ? 'open' : ''}`}>
+                        <Link to="/">Home</Link>
                         <Link to="/topics">Course Topics</Link>
                         <Link to="/outcomes">Why UX Outcomes?</Link>
                         <Link to="/teams">Team Pricing</Link>
-                        <Link to="/octoberschedule">October Schedule</Link>
                         <Link to="/october">Join Next Cohort</Link>
                     </div>
                 </nav>

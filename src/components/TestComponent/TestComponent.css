@@ -3,6 +3,8 @@
     margin-bottom: 3em;
     width: 75%;
     position: relative;
+    max-width: 60em;
+
     /* border: 1px solid red; */
 }
 
@@ -30,6 +32,10 @@
     margin-top: 2em;
     background-color: white;
 
+}
+
+.width-75 {
+    width: 75%;
 }
 
 @media only screen and (max-width: 768px) {

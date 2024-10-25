@@ -8,9 +8,14 @@
 
 }
 
-/* .article-content {
-    max-width: 60%;
-} */
+.article-teams {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 75%;
+    /* border: 1px solid red; */
+    max-width: 60em;
+}
 
 .article-content p,
 li,

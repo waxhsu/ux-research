@@ -4,7 +4,7 @@
   flex-direction: column;
   margin: 0 auto;
   width: 75%;
-  max-width: 80em;
+  max-width: 60em;
   font-weight: bold;
 }
 
@@ -62,7 +62,8 @@
 /* Updated styles for the header-links in mobile view */
 @media (max-width: 768px) {
   .header-links {
-    display: none; /* Hide links on mobile by default */
+    display: none;
+    /* Hide links on mobile by default */
     flex-direction: column;
     position: absolute;
     top: 60px;
@@ -71,32 +72,44 @@
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-    padding: 20px 0px 20px 25px; /* Equal padding on all sides */
-    width: auto; /* Set width to auto to accommodate the longest text */
-    min-width: 200px; /* Optional: set a minimum width */
+    padding: 20px 0px 20px 25px;
+    /* Equal padding on all sides */
+    width: auto;
+    /* Set width to auto to accommodate the longest text */
+    min-width: 200px;
+    /* Optional: set a minimum width */
   }
 
   .header-links.open {
-    display: flex; /* Show links when menu is open */
+    display: flex;
+    /* Show links when menu is open */
   }
 
-    .header-links a {
-        padding: 10px 10px 10px 10px; /* Reduce padding on the right */
-        text-align: left; /* Align text to the left */
-        width: 100%; /* Make the link take up the full width of the container */
-        white-space: nowrap; /* Prevent text wrapping */
-        text-decoration: none; /* Remove default underline */
-        color: #016267; /* Link color */
-    }
+  .header-links a {
+    padding: 10px 10px 10px 10px;
+    /* Reduce padding on the right */
+    text-align: left;
+    /* Align text to the left */
+    width: 100%;
+    /* Make the link take up the full width of the container */
+    white-space: nowrap;
+    /* Prevent text wrapping */
+    text-decoration: none;
+    /* Remove default underline */
+    color: #016267;
+    /* Link color */
+  }
 
-    .header-links a:hover,
-    .header-links a:active {
-        text-decoration: underline; /* Add underline on hover and active */
-    }
+  .header-links a:hover,
+  .header-links a:active {
+    text-decoration: underline;
+    /* Add underline on hover and active */
+  }
 
 
   .hamburger {
-    display: flex; /* Show hamburger icon on mobile */
+    display: flex;
+    /* Show hamburger icon on mobile */
   }
 
   .header-nav {
@@ -124,8 +137,8 @@
 }
 
 .hero-paragraphs p {
-    margin: 0.25em;
-    font-size: 16px
+  margin: 0.25em;
+  font-size: 20px
 }
 
 /* Styles for the main heading and subtitle */

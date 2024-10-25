@@ -3,6 +3,7 @@
     color: white;
     margin: 0 auto;
     /* border: 1px solid yellow; */
+    margin-bottom: 3em;
 
 
 }
@@ -15,7 +16,7 @@
     height: 16em;
     justify-content: center;
     /* align-items: center; */
-    max-width: 80em;
+    max-width: 60em;
 
 }
 
@@ -23,6 +24,7 @@
     font-weight: bold;
     line-height: 1.5em;
     max-width: 60%;
+    font-size: 20px;
 }
 
 .GreenArticle-content h1 {
