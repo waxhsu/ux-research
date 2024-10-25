@@ -14,8 +14,9 @@
 
 .article-content p,
 li,
-h2 {
-    max-width: 60%;
+h2,
+h1 {
+    max-width: 90%;
     line-height: 1.5em;
 }
 
@@ -62,11 +63,11 @@ ul {
 
 
 
-.TEMP-pricing-content{
+.TEMP-pricing-content {
     width: 75%;
 }
 
-.TEMP-pricing-content ul{
+.TEMP-pricing-content ul {
     /* line-height: 2em; */
     margin-left: -1.5em;
     /* font-weight: bold; */
@@ -74,7 +75,8 @@ ul {
     /* border: 1px solid red; */
 }
 
-.TEMP-pricing-content p, ul {
+.TEMP-pricing-content p,
+ul {
     line-height: 1.5em;
 }
 

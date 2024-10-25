@@ -12,7 +12,13 @@
     width: 300px;
     margin-top: 2em;
     background-color: white;
+}
 
+.modal-container {
+    position: absolute;
+    bottom: 65%;
+    left: 65%;
+    /* Start from the middle */
 }
 
 /* keep this */
@@ -21,7 +27,7 @@
 
 }
 
-.cohort-paragraphs > p {
+.cohort-paragraphs>p {
     /* border: red solid 2px; */
     margin: 0;
 }
@@ -56,6 +62,18 @@ a {
 
 }
 
+.modal-button-link {
+    color: white;
+    text-decoration: none;
+}
+
+
+.green-team-button {
+    width: 300px;
+    background-color: #016267;
+    padding: 10px;
+
+}
 
 @media only screen and (max-width: 768px) {
     .modal {

@@ -29,7 +29,7 @@ export default function Header() {
             <section className="header">
                 <nav className="header-nav">
                     <img className="header-logo" src="/images/Center_Centre_Logo.png" alt="center centre logo" />
-                    
+
                     {/* Hamburger icon */}
                     <div className="hamburger" onClick={toggleMenu}>
                         <span className="bar"></span>
@@ -49,8 +49,9 @@ export default function Header() {
                 <div>
                     <h1>Outcome-Driven UX Metrics</h1>
                     <p className="online-course">An Online Course with Jared Spool</p>
+                    <Hero />
                 </div>
-                {location.pathname === '/' && <Hero />}
+                {/* {location.pathname === '/' && <Hero />} */}
             </section>
         </section>
     );

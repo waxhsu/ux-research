@@ -8,7 +8,8 @@ export default function JaredSpool() {
             <div className="jaredSpool-container">
                 <div className="">
                     <h2>Led by Jared Spool, <br /> Maker of Awesomeness</h2>
-                    <p>Everything you learn in this Intensive comes directly from Jared’s years of working across industries, discovering the best practices for organizations to deliver well-designed products and services.</p>
+                    <p>Everything you learn in this Intensive comes directly from Jared’s years of working across industries, discovering the best practices for organizations to deliver well-designed products and services.
+                    </p>
 
                     <p>His experience working with design leaders of organizations like IBM, NASA, GE, Fidelity Investments, SAP, GM, Exxon Mobil, and the Obama White House has taught him exactly what teams need to mount strategic, influential UX research initiatives.</p>
 
