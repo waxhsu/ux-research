@@ -101,7 +101,7 @@ export default function Teams() {
                 </div>
                 <div className="">
                     <h3>Talk to Jared Over a Call</h3>
-                    <button className=" btn btn-shadow green-team-button">Contact Us and Talk to Jared</button>
+                    <button className=" btn btn-shadow green-team-button"><a className="purchase-box-button-white" href="https://jmspool-mentoring.youcanbook.me/">Contact Us and Talk to Jared</a></button>
                 </div>
             </VideoSeries>
             <Footer />

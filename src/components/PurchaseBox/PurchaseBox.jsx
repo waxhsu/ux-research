@@ -9,7 +9,7 @@ export default function PurchaseBox({ src, text, buttonText }) {
 
             <img src={src} alt="computer" />
             <p><b>{text}</b></p>
-            <button className="btn-shadow btn purchase-box-button">{buttonText}</button>
+            <button className="btn-shadow btn purchase-box-button"><a className="purchase-box-button-white" href="https://essentials.centercentre.com/metrics">{buttonText}</a></button>
 
         </div>
 

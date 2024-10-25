@@ -12,12 +12,12 @@ import LeftContent from "../components/LeftContent/LeftContent";
 import TestComponent from "../components/TestComponent/TestComponent";
 import SpiffyCheckout from "../components/SpiffyCheckout/SpiffyCheckout";
 
-export default function October() {
+export default function December() {
     return (
         <div className="October">
             <Header />
             < GreenArticle >
-                <h1>Join October Cohort</h1>
+                <h1>Join December Cohort</h1>
             </GreenArticle >
             <TestComponent >
                 <div className="width-500">
@@ -27,7 +27,7 @@ export default function October() {
                 </div>
                 <div className="test-component-content-container">
                     <img src="./images/11.png" alt="Outcome Driven UX Metrics" />
-                    <button className="btn btn-shadow test-component-purchase button modal-button-link"> <Link to="/octoberschedule" className="modal-button-link">October Schedule</Link></button>
+                    <button className="btn btn-shadow test-component-purchase button modal-button-link"> <Link to="/decemberschedule" className="modal-button-link">December Schedule</Link></button>
                 </div>
             </TestComponent >
             <TestComponent>
@@ -50,8 +50,8 @@ export default function October() {
                 </div>
             </TestComponent >
 
-            <SpiffyCheckout >
-                <spiffy-checkout url="https://centercentre.spiffy.co/checkout/ux-metrics-oct" ></spiffy-checkout>
+            <SpiffyCheckout>
+                <spiffy-checkout url="https://centercentre.spiffy.co/checkout/ux-metrics-dec" ></spiffy-checkout>
             </SpiffyCheckout>
 
 

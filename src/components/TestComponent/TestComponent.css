@@ -19,6 +19,10 @@
 
 }
 
+.width-500 {
+    width: 500px;
+    padding-right: 80px;
+}
 
 .test-component-content-container {
     display: flex;
@@ -32,10 +36,6 @@
     margin-top: 2em;
     background-color: white;
 
-}
-
-.width-75 {
-    width: 75%;
 }
 
 @media only screen and (max-width: 768px) {

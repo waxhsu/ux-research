@@ -20,8 +20,8 @@ export default function Modal() {
                         <p><b>Oct 28 - Nov 21</b></p>
                         <Link to="/octoberschedule">See Schedule</Link>
                     </div>
-                    {/* <button className="btn-shadow">  <Link to="/october" className="modal-button-link">Join Cohort</Link></button> */}
-                    <button className="btn-shadow">  <a className="modal-button-link" href="https://centercentre.spiffy.co/checkout/ux-metrics-oct#pop">Join Cohort</a></button>
+                    <button className="btn-shadow">  <Link to="/october" className="modal-button-link">Join Cohort</Link></button>
+                    {/* <button className="btn-shadow">  <a className="modal-button-link" href="https://centercentre.spiffy.co/checkout/ux-metrics-oct#pop">Join Cohort</a></button> */}
                 </div>
                 <div className="cohort-1">
                     <div className="cohort-paragraphs">
