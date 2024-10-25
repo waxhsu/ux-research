@@ -1,7 +1,7 @@
 export const COHORT_DATE_RANGE_OCTOBER = [
   {
-    start: `Oct 29`,
-    end: `Nov 21`,
+    start: `Nov 5`,
+    end: `Dec 3`,
   }
 ]
 
@@ -17,9 +17,9 @@ export const HARDCORE_DETAILS_OCTOBER = [
     topicDetails1_bullet2: `You’ll move beyond the unhelpful practice of measuring outputs by focusing the team on outcomes.`,
     topicDetails1_bullet3: `You can show how the features of the next release are critical to your long-term UX vision.`,
 
-    topicTitle1_date1: 'Tuesday, Oct 29, 11am - Noon ET',
+    topicTitle1_date1: 'Tuesday, Nov 5, 11am - Noon ET',
     topicTitle1_title1: 'Watch the Lecture*',
-    topicTitle1_date2: 'Tuesday, Oct 29, 1 - 2pm ET',
+    topicTitle1_date2: 'Tuesday, Nov 5, 1 - 2pm ET',
     topicTitle1_title2: 'Live Coaching with Jared',
 
 
@@ -31,9 +31,9 @@ export const HARDCORE_DETAILS_OCTOBER = [
     topicDetails2_bullet2: `You know exactly when to celebrate your success.`,
     topicDetails2_bullet3: `Your senior management clearly sees how your work has improved users’ lives.`,
 
-    topicTitle2_date1: 'Thursday, Oct 31, 11am - Noon ET',
+    topicTitle2_date1: 'Thursday, Nov 7, 11am - Noon ET',
     topicTitle2_title1: 'Watch the Lecture*',
-    topicTitle2_date2: 'Thursday, Oct 31, 1 - 2pm ET',
+    topicTitle2_date2: 'Thursday, Nov 7, 1 - 2pm ET',
     topicTitle2_title2: 'Live Coaching with Jared',
   },
   {
@@ -47,9 +47,9 @@ export const HARDCORE_DETAILS_OCTOBER = [
     topicDetails1_bullet2: `You know exactly what to report in your OKRs.`,
     topicDetails1_bullet3: `Your stakeholders immediately connect the UX improvement to key `,
 
-    topicTitle1_date1: 'Tuesday, Nov 5, 11am - Noon ET',
+    topicTitle1_date1: 'Tuesday, Nov 12, 11am - Noon ET',
     topicTitle1_title1: 'Watch the Lecture*',
-    topicTitle1_date2: 'Tuesday, Nov 5, 1 - 2 pm ET',
+    topicTitle1_date2: 'Tuesday, Nov 12, 1 - 2 pm ET',
     topicTitle1_title2: 'Live Coaching with Jared',
 
 
@@ -61,9 +61,9 @@ export const HARDCORE_DETAILS_OCTOBER = [
     topicDetails2_bullet2: `You win over the finance department as your UX efforts shrink corporate costs.`,
     topicDetails2_bullet3: `You have vital stakeholders praising how better UX improved their department’s fiscal performance.`,
 
-    topicTitle2_date1: 'Thursday, Nov 7, 11am - Noon ET',
+    topicTitle2_date1: 'Thursday, Nov 14, 11am - Noon ET',
     topicTitle2_title1: 'Watch the Lecture*',
-    topicTitle2_date2: 'Thursday, Nov 7, 1 - 2pm ET',
+    topicTitle2_date2: 'Thursday, Nov 14, 1 - 2pm ET',
     topicTitle2_title2: 'Live Coaching with Jared',
   },
 
@@ -78,9 +78,9 @@ export const HARDCORE_DETAILS_OCTOBER = [
     topicDetails1_bullet2: `You get called into the high-level discussions and meetings that define where your products and services are heading.`,
     topicDetails1_bullet3: `Your UX work becomes proactive, and your understanding of your users becomes invaluable.`,
 
-    topicTitle1_date1: 'Tuesday, Nov 12, 11am - Noon ET',
+    topicTitle1_date1: 'Tuesday, Nov 19, 11am - Noon ET',
     topicTitle1_title1: 'Watch the Lecture*',
-    topicTitle1_date2: 'Tuesday, Nov 12, 1 - 2 pm ET',
+    topicTitle1_date2: 'Tuesday, Nov 19, 1 - 2 pm ET',
     topicTitle1_title2: 'Live Coaching with Jared',
 
 
@@ -92,9 +92,9 @@ export const HARDCORE_DETAILS_OCTOBER = [
     topicDetails2_bullet2: `You establish a solid “definition of done” that your Agile teams can use to know what to deliver.`,
     topicDetails2_bullet3: `You prevent team members and stakeholders from jumping to solutions before everyone understands the problems.`,
 
-    topicTitle2_date1: 'Thursday, Nov 14, 11am - Noon ET',
+    topicTitle2_date1: 'Thursday, Nov 21, 11am - Noon ET',
     topicTitle2_title1: 'Watch the Lecture*',
-    topicTitle2_date2: 'Thursday, Nov 14, 1 - 2pm ET',
+    topicTitle2_date2: 'Thursday, Nov 21, 1 - 2pm ET',
     topicTitle2_title2: 'Live Coaching with Jared',
   },
 
@@ -110,9 +110,9 @@ export const HARDCORE_DETAILS_OCTOBER = [
     topicDetails1_bullet2: `You ensure every item in your product roadmap solves a necessary problem that customers would be happy to pay for.`,
     topicDetails1_bullet3: `You discover innovative ways to anticipate your customers’ needs and exceed your users’ expectations.`,
 
-    topicTitle1_date1: 'Tuesday, Nov 19, 11am - Noon ET',
+    topicTitle1_date1: 'Tuesday, Nov 26, 11am - Noon ET',
     topicTitle1_title1: 'Watch the Lecture*',
-    topicTitle1_date2: 'Tuesday, Nov 19, 1 - 2 pm ET',
+    topicTitle1_date2: 'Tuesday, Nov 26, 1 - 2 pm ET',
     topicTitle1_title2: 'Live Coaching with Jared',
 
 
@@ -124,17 +124,12 @@ export const HARDCORE_DETAILS_OCTOBER = [
     topicDetails2_bullet2: `You make your organization the envy of your entire industry, with every other organization holding you up as their goal.`,
     topicDetails2_bullet3: `You drive your organization to see UX as the central competitive promise for everything they do.`,
 
-    topicTitle2_date1: 'Thursday, Nov 21, 11am - Noon ET',
+    topicTitle2_date1: 'Thursday, Dec 3, 11am - Noon ET',
     topicTitle2_title1: 'Watch the Lecture*',
-    topicTitle2_date2: 'Thursday, Nov 21, 1 - 2pm ET',
+    topicTitle2_date2: 'Thursday, Dec 3, 1 - 2pm ET',
     topicTitle2_title2: 'Live Coaching with Jared',
   },
 ]
-
-
-
-
-
 
 export const COHORT_DATE_RANGE_NOVEMBER = [
   {

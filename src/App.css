@@ -19,7 +19,15 @@ h4 {
   line-height: 1.5em;
 }
 
-
+.calendar-container {
+  /* display: flex;
+  flex-direction: column; */
+  margin: 0 auto;
+  width: 75%;
+  max-width: 60em;
+  font-weight: bold;
+  margin-bottom: 5em;
+}
 
 .container {
   display: flex;
