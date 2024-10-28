@@ -1,28 +1,43 @@
 import React from "react";
+import { useState, useEffect } from 'react';
 
 
 // components
 import Header from "../components/Header/Header";
 import GreenArticle from "../components/GreenArticle/GreenArticle";
-import Article from "../components/Article/Article";
 import LeftContent from "../components/LeftContent/LeftContent";
 import RightContent from "../components/RightContent/RightContent";
 import Modal from "../components/Modal/Modal";
 import TestComponent from "../components/TestComponent/TestComponent";
 
-
-
 import Footer from "../components/Footer/Footer";
-import Pricing from "../components/Pricing/Pricing";
-import { Link } from "react-router-dom";
-
 
 export default function Outcomes() {
+
+
+    // State and hooks to change the h1 on resize
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+    // Update the state on window resize
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 768);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        // Cleanup the listener on component unmount
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+
+
+
     return (
         <div className="outcomes">
             <Header />
             < GreenArticle >
-                <h1>Why use Outcome-driven UX Metrics?</h1>
+                <h1>{isMobile ? "Why UX Outcomes?" : "Why use Outcome-driven UX Metrics?"}</h1>
             </GreenArticle >
             <TestComponent >
                 <div>

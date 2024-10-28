@@ -1,14 +1,10 @@
-import React, { useEffect, useRef, useState } from "react";
 
 // Components
 import Header from '../components/Header/Header';
 import GreenArticle from '../components/GreenArticle/GreenArticle';
-import Article from '../components/Article/Article';
 import Testimonials from '../components/Testimonials/Testimonials';
 import CourseSchedule from '../components/CourseSchedule/CourseSchedule';
 import JaredSpool from '../components/JaredSpool/JaredSpool';
-import Pricing from '../components/Pricing/Pricing';
-import Calendar from '../components/Calendar/CalendarOct';
 import VideoSeries from '../components/VideoSeries/VideoSeries';
 import Footer from '../components/Footer/Footer';
 import Modal from "../components/Modal/Modal";
@@ -109,7 +105,6 @@ export default function Home() {
                 <span><b>- UX Researcher and Designer </b></span>
             </Testimonials>
             <CourseSchedule />
-            {/* <Calendar /> */}
             <JaredSpool />
 
             <TestComponent>
