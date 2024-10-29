@@ -37,8 +37,6 @@ export default function Modal() {
                     </div>
                     <button className="btn-shadow">  <Link to="/december" className="modal-button-link">Join Cohort</Link></button>
                 </div>
-
-
             </div>
             <span>8 or more team members?</span>
             <br />
