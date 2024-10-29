@@ -8,12 +8,6 @@ export default function Modal() {
         <div className="modal">
             <img src="./images/11.png" alt="Outcome-Driven UX Metrics" className="modal-image" />
             <span>Next Cohorts:</span>
-            {/* <ul>
-                <li><div className="modal-spans"><span>Oct 28 - Nov 21 </span> <br /><span>See Schedule</span></div> <button>Join Cohort</button></li>
-                <li><div className="modal-spans"><span>Oct 28 - Nov 21 </span> <br /><span>See Schedule</span></div> <button>Join Cohort</button></li>
-                <li><div className="modal-spans"><span>Oct 28 - Nov 21 </span> <br /><span>See Schedule</span></div> <button>Join Cohort</button></li>
-            </ul> */}
-
             <div>
                 <div className="cohort-1">
                     <div className="cohort-paragraphs">
