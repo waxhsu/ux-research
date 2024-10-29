@@ -27,6 +27,7 @@ function App() {
         <Route path="/teams" element={<Teams />} />
         <Route path="/topics" element={<Topics />} />
 
+
         <Route path="/octoberschedule" element={<ScheduleOctober />} />
         <Route path="/novemberschedule" element={<ScheduleNovember />} />
         <Route path="/decemberschedule" element={<ScheduleDecember />} />
