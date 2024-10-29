@@ -10,7 +10,8 @@ import Footer from '../components/Footer/Footer';
 import Modal from "../components/Modal/Modal";
 import TestComponent from "../components/TestComponent/TestComponent";
 import PurchaseBox from "../components/PurchaseBox/PurchaseBox";
-// import Pricing from '../components/Pricing/Pricing';
+import HorizontalModal from "../components/HorizontalModal/HorizontalModal";
+
 
 export default function Home() {
     return (
@@ -75,6 +76,7 @@ export default function Home() {
                 <span><b>- UX Researcher and Designer </b></span>
             </Testimonials>
             <CourseSchedule />
+            < HorizontalModal />
             <JaredSpool />
 
             <TestComponent>
@@ -88,7 +90,6 @@ export default function Home() {
                     </ul>
                     <div>
                         <p><b>What’s included:</b></p>
-
                         <ul>
                             <li><img src="./images/8.png" alt="8" className="pricing-list-image" />Eight 1-hour live coaching sessions with Jared Spool.</li>
                             <li><img src="./images/8.png" alt="8" className="pricing-list-image" />Eight 50-minute recorded lectures (to watch on your own time or together during a scheduled session for each topic).
