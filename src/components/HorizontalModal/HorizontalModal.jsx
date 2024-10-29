@@ -26,46 +26,48 @@ export default function HorizontalModal() {
     return (
 
         <div className="horizontalModal">
-            <span><b>{isMobile ? "Next Cohorts" : "Check Out Schedules for Future Dates"}:</b></span>
 
             <div className="horizontalModal-container">
-                {/* <div className="horizontal-cohort-1">
-                    <div className="horizontal-cohort-paragraphs">
-                        <p><b>
-                        {COHORT_DATE_RANGE_OCTOBER[0].start} - {COHORT_DATE_RANGE_OCTOBER[0].end}
-                        </b></p>
-                        <Link to="/octoberschedule">See Schedule</Link>
-                    </div>
-                    <button className="btn-shadow">
-                        <Link to="/october" className="modal-button-link">Join Cohort</Link>
-                    </button>
-                </div> */}
+            <span><b>{isMobile ? "Next Cohorts" : "Check Out Schedules for Future Dates"}:</b></span>
 
-                <div className="horizontal-cohort-1">
-                    <div className="horizontal-cohort-paragraphs">
-                        <p><b>
-                        {COHORT_DATE_RANGE_NOVEMBER[0].start} - {COHORT_DATE_RANGE_NOVEMBER[0].end}
-                        </b></p>
-                        <Link to="/novemberschedule">See Schedule</Link>
+                <div className="cohort-1-container">
+                    {/* <div className="horizontal-cohort-1">
+                        <div className="horizontal-cohort-paragraphs">
+                            <p><b>
+                            {COHORT_DATE_RANGE_OCTOBER[0].start} - {COHORT_DATE_RANGE_OCTOBER[0].end}
+                            </b></p>
+                            <Link to="/octoberschedule">See Schedule</Link>
+                        </div>
+                        <button className="btn-shadow">
+                            <Link to="/october" className="modal-button-link">Join Cohort</Link>
+                        </button>
+                    </div> */}
+
+                    <div className="horizontal-cohort-1">
+                        <div className="horizontal-cohort-paragraphs">
+                            <p><b>
+                            {COHORT_DATE_RANGE_NOVEMBER[0].start} - {COHORT_DATE_RANGE_NOVEMBER[0].end}
+                            </b></p>
+                            <Link to="/novemberschedule">See Schedule</Link>
+                        </div>
+                        <button className="btn-shadow">
+                            <Link to="/november" className="modal-button-link">Join Cohort</Link>
+                        </button>
                     </div>
-                    <button className="btn-shadow">
-                        <Link to="/november" className="modal-button-link">Join Cohort</Link>
-                    </button>
+
+                    <div className="horizontal-cohort-1">
+                        <div className="horizontal-cohort-paragraphs">
+                            <p><b>
+                            {COHORT_DATE_RANGE_DECEMBER[0].start} - {COHORT_DATE_RANGE_DECEMBER[0].end}
+                            </b></p>
+                            <Link to="/decemberschedule">See Schedule</Link>
+                        </div>
+                        <button className="btn-shadow">
+                            <Link to="/december" className="modal-button-link">Join Cohort</Link>
+                        </button>
+                    </div>
+
                 </div>
-
-                <div className="horizontal-cohort-1">
-                    <div className="horizontal-cohort-paragraphs">
-                        <p><b>
-                        {COHORT_DATE_RANGE_DECEMBER[0].start} - {COHORT_DATE_RANGE_DECEMBER[0].end}
-                        </b></p>
-                        <Link to="/decemberschedule">See Schedule</Link>
-                    </div>
-                    <button className="btn-shadow">
-                        <Link to="/december" className="modal-button-link">Join Cohort</Link>
-                    </button>
-                </div>
-
-
             </div>
             {/* <Link to="/teams">Explore private team courses</Link> */}
         </div>
