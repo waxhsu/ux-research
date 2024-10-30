@@ -97,9 +97,11 @@ h4 {
 
 /*!MOBILE STYLES */
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  .calendar-container {
 
-  .GreenArticle-paragraphs p {
-    max-width: 100%;
+    width: 85%;
+
   }
-} */
+
+}

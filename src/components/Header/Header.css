@@ -58,9 +58,19 @@
   transition: 0.3s;
 }
 
+.hamburger-image {
+  width: 7em;
+
+}
+
 /* Responsive styles for smaller screens */
 /* Updated styles for the header-links in mobile view */
 @media (max-width: 768px) {
+
+  .header {
+    width: 85%;
+  }
+
   .header-links {
     display: none;
     /* Hide links on mobile by default */

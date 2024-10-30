@@ -2,7 +2,6 @@
 
     margin-bottom: 3em;
     max-width: 60em;
-
 }
 
 .width-test-team {
@@ -34,7 +33,7 @@
 @media only screen and (max-width: 768px) {
     .video-series {
         flex-direction: column;
-        width: 80%;
+        width: 85%;
         align-items: center;
     }
 

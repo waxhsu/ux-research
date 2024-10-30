@@ -38,6 +38,10 @@
         flex-direction: column;
     }
 
+    .left-content-container {
+        width: 86%;
+    }
+
     .article-content p,
     li,
     h2 {

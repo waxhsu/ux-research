@@ -31,6 +31,9 @@
 
 
 @media only screen and (max-width: 768px) {
+    .jaredSpool-container {
+        width: 85%;
+    }
 
     /* Adjust the width for mobile devices */
     .article-content p,

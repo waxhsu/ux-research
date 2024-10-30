@@ -31,9 +31,14 @@ export default function Header() {
 
                     {/* Hamburger icon */}
                     <div className="hamburger" onClick={toggleMenu}>
+                        {/* <span className="bar"></span>
                         <span className="bar"></span>
-                        <span className="bar"></span>
-                        <span className="bar"></span>
+                        <span className="bar"></span> */}
+                        <img
+                            src="/images/Menu.png"
+                            alt="Menu"
+                            className="hamburger-image"
+                        />
                     </div>
 
                     {/* Links */}

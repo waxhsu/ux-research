@@ -36,6 +36,11 @@
 @media only screen and (max-width: 768px) {
 
     /* Adjust the width for mobile devices */
+
+    .right-content-container {
+        width: 85%;
+    }
+
     .article-content p,
     li,
     h2 {

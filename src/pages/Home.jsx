@@ -121,7 +121,7 @@ export default function Home() {
                         <span>Access is for 90 days.</span>
                     </div>
                     <PurchaseBox
-                        src="./images/93.png"
+                        src="./images/Metrics-laptop.png"
                         text="Outcome-Driven UX Metrics Video Series"
                         price="$227"
                         buttonText="PURCHASE VIDEO SERIES"

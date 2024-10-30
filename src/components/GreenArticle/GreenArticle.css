@@ -37,6 +37,10 @@
 
 @media only screen and (max-width: 768px) {
 
+    .GreenArticle-content {
+        width: 85%
+    }
+
     /* Adjust the width for mobile devices */
     .GreenArticle-content p {
         max-width: 100%;

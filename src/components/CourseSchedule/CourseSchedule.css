@@ -32,6 +32,9 @@ h4 {
 }
 
 @media only screen and (max-width: 768px) {
+    .courseSchedule {
+        width: 85%;
+    }
 
     /* Adjust the width for mobile devices */
     .courseSchedule p,
