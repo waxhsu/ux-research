@@ -13,6 +13,7 @@ import RightContent from "../components/RightContent/RightContent";
 import Testimonials from "../components/Testimonials/Testimonials";
 import TestComponent from "../components/TestComponent/TestComponent";
 import VideoSeries from "../components/VideoSeries/VideoSeries";
+import HorizontalModal from "../components/HorizontalModal/HorizontalModal";
 
 
 export default function Teams() {
@@ -65,6 +66,9 @@ export default function Teams() {
                     <img src="/images/public-teams.png" alt="Jared" className="left-content-image" />
                 </div>
             </TestComponent>
+
+            < HorizontalModal />
+
             <TestComponent>
                 <div>
                     <img src="/images/private-teams.png" alt="Jared" className="left-content-image" />

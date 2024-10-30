@@ -9,7 +9,7 @@
 }
 
 .header-background {
-  background-color: rgb(225, 221, 221);
+  background-color: rgb(247, 247, 247);
   padding-top: 2em;
   padding-bottom: 2em;
 }
@@ -115,6 +115,11 @@
   .header-nav {
     flex-direction: row;
   }
+
+  .header h1 {
+    font-size: 30px;
+
+  }
 }
 
 /* Styling for the Hero section */
@@ -148,8 +153,8 @@ h1 {
 }
 
 .online-course {
-  font-size: 1.5em;
-  margin-top: 0;
+  font-size: 1.2em;
+  margin-top: 1em;
 }
 
 
@@ -157,6 +162,6 @@ h1 {
 
   /* Adjust the width for mobile devices */
   .hero-paragraphs p {
-    font-size: 15px
+    font-size: 12px
   }
 }

@@ -11,6 +11,7 @@ import LeftContent from "../components/LeftContent/LeftContent";
 import TestComponent from "../components/TestComponent/TestComponent";
 import SpiffyCheckout from "../components/SpiffyCheckout/SpiffyCheckout";
 import CalendarDec from "../components/Calendar/CalendarDec";
+import HorizontalModal from "../components/HorizontalModal/HorizontalModal";
 
 export default function ScheduleDecember() {
     return (
@@ -20,10 +21,14 @@ export default function ScheduleDecember() {
                 <h1>Join December Cohort</h1>
             </GreenArticle >
             < CalendarDec />
-            <Article>  <p>You must watch the lecture before that day’s Live Coaching session. However, if you’re the type of person who likes to be super prepared, you can watch the recording on your own time before this session. You’ll have access to all the recordings before the course begins, so you can even binge-watch them.</p>
-                <p>All times listed are in Eastern Time Zone.</p>
-                <p>We welcome folks from other time zones to join us. </p></Article>
-            < Footer />
+            <TestComponent>
+                <div className="schedule-paragraphs">
+                    <p>You must watch the lecture before that day’s Live Coaching session. However, if you’re the type of person who likes to be super prepared, you can watch the recording on your own time before this session. You’ll have access to all the recordings before the course begins, so you can even binge-watch them.</p>
+                    <p>All times listed are in Eastern Time Zone.</p>
+                    <p>We welcome folks from other time zones to join us. </p>
+                </div>
+            </TestComponent>
+            <HorizontalModal />
             < Footer />
         </div >
 

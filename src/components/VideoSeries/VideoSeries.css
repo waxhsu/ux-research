@@ -24,6 +24,11 @@
 
 }
 
+.bg-grey {
+    background-color: #f4f4f4;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 
 
 @media only screen and (max-width: 768px) {

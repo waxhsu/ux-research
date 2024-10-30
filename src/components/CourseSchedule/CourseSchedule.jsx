@@ -17,16 +17,6 @@ export default function CourseSchedule() {
             <p>We keep the cohorts small, so you’ll have plenty of time to be coached on how you’ll implement your Outcome-driven UX metrics.
             </p>
             <p>We know that schedules are tough, so we record every coaching session with Jared. If you miss a session, or you just want to review what you discussed, you’ll have access to the recordings for 6 months after the course ends. (You can also watch the recordings from other cohorts, to hear how they worked through their biggest challenges.)</p>
-            {/* <span>Here are the eight Outcome-driven UX Metrics topics:</span> */}
-            {/* <ul>
-                <li>Align Your Teams to Great UX with UX Outcomes</li>
-                <li>Reach Your Objectives with Your UX Success Metrics</li>
-                <li>Eliminate the Costs of Poor UX with Problem-Value Metrics</li>
-                <li>Achieve Key Results with Your UX Progress Metrics</li>
-                <li>Raise UX’s Visibility with Outcome-driven UX Metrics</li>
-            </ul> */}
-            {/* <span>Every session is recorded. <br />
-                You’ll have access to the recordings for 8 weeks.</span> */}
             <h1>Course Schedule</h1>
             <Calendar />
 

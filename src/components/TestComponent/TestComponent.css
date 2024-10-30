@@ -1,6 +1,6 @@
 .test-component {
 
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     width: 75%;
     position: relative;
     max-width: 60em;
@@ -39,7 +39,7 @@
 
 }
 
-/* !!!! */
+/* pricing section for the Home page */
 .pricing-content ul {
     list-style: none;
     line-height: 2em;
@@ -58,6 +58,12 @@
     /* border: 1px solid red; */
     margin-top: 1.5em;
     display: flex;
+}
+
+/* teams grey background */
+.schedule-paragraphs {
+    font-weight: 500;
+    /* border: 1px solid red; */
 }
 
 /* !!!!! */

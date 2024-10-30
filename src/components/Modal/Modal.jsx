@@ -32,7 +32,7 @@ export default function Modal() {
                     <button className="btn-shadow">  <Link to="/december" className="modal-button-link">Join Cohort</Link></button>
                 </div>
             </div>
-            <span>8 or more team members?</span>
+            <span className="mt-2">8 or more team members?</span>
             <br />
             <Link to="/teams">Explore private team courses</Link>
         </div>
