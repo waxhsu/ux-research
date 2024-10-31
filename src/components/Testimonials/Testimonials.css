@@ -30,7 +30,7 @@
 .testimonials-star {
     width: 8em;
     position: absolute;
-    top: -18%;
+    top: -13%;
     /* Moves the image upwards by 20% of its height */
     left: 18%;
     transform: translateX(-50%);

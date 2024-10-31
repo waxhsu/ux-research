@@ -94,7 +94,7 @@ export const HARDCORE_DETAILS_OCTOBER = [
 
     topicTitle2_date1: 'Thursday, Nov 21, 11am - Noon ET',
     topicTitle2_title1: 'Watch the Lecture*',
-    topicTitle2_date2: 'Thursday, Nov 21, 1 - 2pm ET',
+    topicTitle2_date2: 'Thursday, Nov 21, Noon - 1pm ET',
     topicTitle2_title2: 'Live Coaching with Jared',
   },
 
