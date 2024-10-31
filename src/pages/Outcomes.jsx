@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 // components
 import Header from "../components/Header/Header";
+import Navbar from "../components/Navbar/Navbar";
 import GreenArticle from "../components/GreenArticle/GreenArticle";
-import LeftContent from "../components/LeftContent/LeftContent";
 import RightContent from "../components/RightContent/RightContent";
 import Modal from "../components/Modal/Modal";
 import TestComponent from "../components/TestComponent/TestComponent";
@@ -37,6 +37,7 @@ export default function Outcomes() {
 
     return (
         <div className="outcomes">
+            <Navbar />
             <Header />
             < GreenArticle >
                 <h1>{isMobile ? "Why UX Outcomes?" : "Why use Outcome-driven UX Metrics?"}</h1>

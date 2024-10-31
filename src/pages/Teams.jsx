@@ -5,11 +5,9 @@ import React from "react";
 import Header from "../components/Header/Header";
 import GreenArticle from "../components/GreenArticle/GreenArticle";
 import Article from "../components/Article/Article";
-
+import Navbar from "../components/Navbar/Navbar";
 
 import Footer from "../components/Footer/Footer";
-import LeftContent from "../components/LeftContent/LeftContent";
-import RightContent from "../components/RightContent/RightContent";
 import Testimonials from "../components/Testimonials/Testimonials";
 import TestComponent from "../components/TestComponent/TestComponent";
 import VideoSeries from "../components/VideoSeries/VideoSeries";
@@ -19,6 +17,7 @@ import HorizontalModal from "../components/HorizontalModal/HorizontalModal";
 export default function Teams() {
     return (
         <div className="teams">
+            <Navbar />
             <Header />
             <GreenArticle>
                 <h1>Sign Up Your Team</h1>

@@ -11,12 +11,12 @@ import Modal from "../components/Modal/Modal";
 import TestComponent from "../components/TestComponent/TestComponent";
 import PurchaseBox from "../components/PurchaseBox/PurchaseBox";
 import HorizontalModal from "../components/HorizontalModal/HorizontalModal";
-
+import Navbar from '../components/Navbar/Navbar';
 
 export default function Home() {
     return (
         <div className="App">
-
+            <Navbar />
             <Header />
 
             < GreenArticle >

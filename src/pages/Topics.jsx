@@ -4,18 +4,19 @@ import React from "react";
 // components
 import Header from "../components/Header/Header";
 import GreenArticle from "../components/GreenArticle/GreenArticle";
-import Article from "../components/Article/Article";
 import Footer from "../components/Footer/Footer";
 import LeftContent from "../components/LeftContent/LeftContent";
 import RightContent from "../components/RightContent/RightContent";
 import TestComponent from "../components/TestComponent/TestComponent";
 import { Hero } from "../components/Header/Header";
 import Modal from "../components/Modal/Modal";
+import Navbar from "../components/Navbar/Navbar";
 
 
 export default function Topics() {
     return (
         <div className="topics">
+            <Navbar />
             <Header />
             < GreenArticle >
                 <h1>Course Topics</h1>

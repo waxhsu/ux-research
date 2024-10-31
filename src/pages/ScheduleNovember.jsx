@@ -8,10 +8,12 @@ import Footer from "../components/Footer/Footer";
 import TestComponent from "../components/TestComponent/TestComponent";
 import CalendarNov from "../components/Calendar/CalendarNov";
 import HorizontalModal from "../components/HorizontalModal/HorizontalModal";
+import Navbar from "../components/Navbar/Navbar";
 
 export default function ScheduleNovember() {
     return (
         <div className="ScheduleNovember">
+            <Navbar />
             <Header />
             < GreenArticle >
                 <h1>November Schedule</h1>

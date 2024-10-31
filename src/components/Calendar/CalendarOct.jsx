@@ -22,6 +22,7 @@ export default function Calendar() {
 
 
     return (
+        // calenadar-container lives in App.css in case you need to change styles
         // containerClass here is a CSS class that toggles off on the home page.
         <div className={containerClass}>
             <div className='calendar'>
