@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import { COHORT_DATE_RANGE_OCTOBER } from '../Calendar/CalendarData'
 import { COHORT_DATE_RANGE_NOVEMBER } from '../Calendar/CalendarData'
 import { COHORT_DATE_RANGE_DECEMBER } from '../Calendar/CalendarData'
+import { COHORT_DATE_RANGE_JANUARY } from '../Calendar/CalendarData'
 
 export default function HorizontalModal() {
 
@@ -46,24 +47,24 @@ export default function HorizontalModal() {
                     <div className="horizontal-cohort-1">
                         <div className="horizontal-cohort-paragraphs">
                             <p><b>
-                            {COHORT_DATE_RANGE_NOVEMBER[0].start} - {COHORT_DATE_RANGE_NOVEMBER[0].end}
-                            </b></p>
-                            <Link to="/novemberschedule">See Schedule</Link>
-                        </div>
-                        <button className="btn-shadow">
-                            <Link to="/november" className="modal-button-link">Join Cohort</Link>
-                        </button>
-                    </div>
-
-                    <div className="horizontal-cohort-1">
-                        <div className="horizontal-cohort-paragraphs">
-                            <p><b>
                             {COHORT_DATE_RANGE_DECEMBER[0].start} - {COHORT_DATE_RANGE_DECEMBER[0].end}
                             </b></p>
                             <Link to="/decemberschedule">See Schedule</Link>
                         </div>
                         <button className="btn-shadow">
                             <Link to="/december" className="modal-button-link">Join Cohort</Link>
+                        </button>
+                    </div>
+
+                    <div className="horizontal-cohort-1">
+                        <div className="horizontal-cohort-paragraphs">
+                            <p><b>
+                            {COHORT_DATE_RANGE_JANUARY[0].start} - {COHORT_DATE_RANGE_JANUARY[0].end}
+                            </b></p>
+                            <Link to="/januaryschedule">See Schedule</Link>
+                        </div>
+                        <button className="btn-shadow">
+                            <Link to="/january" className="modal-button-link">Join Cohort</Link>
                         </button>
                     </div>
 

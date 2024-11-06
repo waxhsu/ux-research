@@ -1,6 +1,9 @@
 import React from "react"
 import "./Modal.css"
 import { Link } from "react-router-dom"
+import { COHORT_DATE_RANGE_NOVEMBER } from "../Calendar/CalendarData"
+import { COHORT_DATE_RANGE_DECEMBER } from "../Calendar/CalendarData"
+import { COHORT_DATE_RANGE_JANUARY } from "../Calendar/CalendarData"
 
 export default function Modal() {
     return (
@@ -9,28 +12,43 @@ export default function Modal() {
             <img src="./images/11.png" alt="Outcome-Driven UX Metrics" className="modal-image" />
             <span>Next Cohorts:</span>
             <div>
+
+                {/* FIRST COHORT START */}
                 <div className="cohort-1">
                     <div className="cohort-paragraphs">
-                        <p><b>Nov 5 - Dec 3</b></p>
-                        <Link to="/octoberschedule">See Schedule</Link>
-                    </div>
-                    <button className="btn-shadow">  <Link to="/october" className="modal-button-link">Join Cohort</Link></button>
-                    {/* <button className="btn-shadow">  <a className="modal-button-link" href="https://centercentre.spiffy.co/checkout/ux-metrics-oct#pop">Join Cohort</a></button> */}
-                </div>
-                <div className="cohort-1">
-                    <div className="cohort-paragraphs">
-                        <p> <b>Nov 18 - Dec 18</b></p>
+                        <p><b>{COHORT_DATE_RANGE_NOVEMBER[0].start} - {COHORT_DATE_RANGE_NOVEMBER[0].end}</b></p>
                         <Link to="/novemberschedule">See Schedule</Link>
                     </div>
                     <button className="btn-shadow">  <Link to="/november" className="modal-button-link">Join Cohort</Link></button>
                 </div>
+                {/* FIRST COHORT END */}
+
+
+                {/* SECOND COHORT START */}
                 <div className="cohort-1">
                     <div className="cohort-paragraphs">
-                        <p><b>Dec 10 - Jan 17</b></p>
+                    <p><b>{COHORT_DATE_RANGE_DECEMBER[0].start} - {COHORT_DATE_RANGE_DECEMBER[0].end}</b></p>
                         <Link to="/decemberschedule">See Schedule</Link>
                     </div>
                     <button className="btn-shadow">  <Link to="/december" className="modal-button-link">Join Cohort</Link></button>
                 </div>
+                {/* SECOND COHORT END */}
+
+
+
+                {/* THIRD COHORT START */}
+                <div className="cohort-1">
+                    <div className="cohort-paragraphs">
+                    <p><b>{COHORT_DATE_RANGE_JANUARY[0].start} - {COHORT_DATE_RANGE_JANUARY[0].end}</b></p>
+                        <Link to="/januaryschedule">See Schedule</Link>
+                    </div>
+                    <button className="btn-shadow">  <Link to="/january" className="modal-button-link">Join Cohort</Link></button>
+                </div>
+                {/* THIRD COHORT END */}
+
+
+
+
             </div>
             <span className="mt-2">8 or more team members?</span>
             <br />

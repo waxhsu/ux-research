@@ -29,7 +29,14 @@ export default function Navbar() {
                         <Link to="/topics">Course Topics</Link>
                         <Link to="/outcomes">Why UX Outcomes?</Link>
                         <Link to="/teams">Team Pricing</Link>
-                        <Link to="/october">Join Next Cohort</Link>
+
+                        {/* UPDATE THE MONTH AFTER EACH COHORT */}
+                        {/* UPDATE THE MONTH AFTER EACH COHORT */}
+                        {/* UPDATE THE MONTH AFTER EACH COHORT */}
+                        <Link to="/november">Join Next Cohort</Link>
+                        {/* UPDATE THE MONTH AFTER EACH COHORT */}
+                        {/* UPDATE THE MONTH AFTER EACH COHORT */}
+                        {/* UPDATE THE MONTH AFTER EACH COHORT */}
                     </div>
                 </nav>
             </div>
