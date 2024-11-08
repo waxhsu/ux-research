@@ -51,6 +51,7 @@ export default function December() {
             </TestComponent >
 
             <SpiffyCheckout>
+            <h2>Join the December UX Metrics Cohort</h2>
                 <spiffy-checkout url="https://centercentre.spiffy.co/checkout/ux-metrics-dec" ></spiffy-checkout>
             </SpiffyCheckout>
 
