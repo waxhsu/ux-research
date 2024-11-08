@@ -478,7 +478,7 @@ export const HARDCORE_DETAILS_JANUARY = [
     topicDetails1_bullet2: `You get called into the high-level discussions and meetings that define where your products and services are heading.`,
     topicDetails1_bullet3: `Your UX work becomes proactive, and your understanding of your users becomes invaluable.`,
 
-    topicTitle1_date1: 'Mondayy, Jan 27, 2pm - 3pm ET',
+    topicTitle1_date1: 'Monday, Jan 27, 2pm - 3pm ET',
     topicTitle1_title1: 'Watch the Lecture*',
     topicTitle1_date2: 'Monday, Jan 27, 4pm - 5pm pm ET',
     topicTitle1_title2: 'Live Coaching with Jared',

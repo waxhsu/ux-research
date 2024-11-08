@@ -9,7 +9,7 @@ import LeftContent from "../components/LeftContent/LeftContent";
 import RightContent from "../components/RightContent/RightContent";
 import TestComponent from "../components/TestComponent/TestComponent";
 import { Hero } from "../components/Header/Header";
-import Modal from "../components/Modal/Modal";
+import VerticalCohortSelector from "../components/VerticalCohortSelector/VerticalCohortSelector";
 import Navbar from "../components/Navbar/Navbar";
 
 
@@ -33,7 +33,7 @@ export default function Topics() {
                     <p>We keep the cohorts small, so you’ll have plenty of time to be coached on how you’ll implement your Outcome-driven UX metrics.
                     </p>
                 </div>
-                <Modal />
+                <VerticalCohortSelector />
             </TestComponent >
             <LeftContent >
                 <div className="">
@@ -231,7 +231,7 @@ export default function Topics() {
                     <p>Join one of our upcoming cohorts to dive into these eight influential topics. Jared Spool will walk with you every step of the way.</p>
                     <Hero />
                 </div>
-                <Modal />
+                <VerticalCohortSelector />
             </TestComponent>
             <Footer />
         </div >

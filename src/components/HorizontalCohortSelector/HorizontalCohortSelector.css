@@ -1,4 +1,4 @@
-.horizontalModal {
+.horizontalCohortSelector {
     display: flex;
     flex-direction: column;
     border-radius: 1em;
@@ -16,7 +16,7 @@
     margin-bottom: 1em;
 }
 
-.horizontalModal-container {
+.horizontalCohortSelector-container {
     display: flex;
     flex-direction: column;
     padding: 0.25em 0 0 0;
@@ -67,19 +67,15 @@ a {
 }
 
 
-.horizontal-modal-grey-container {
-    background-color: #F4F4F4;
-    padding-bottom: 4em;
-}
 
 @media only screen and (max-width: 768px) {
-    .horizontalModal {
+    .horizontalCohortSelector {
         display: flex;
         width: 85%;
         /* padding: 0px; */
     }
 
-    .horizontalModal-container {
+    .horizontalCohortSelector-container {
         display: flex;
         padding: 0.25em 0 0 0;
         flex-direction: column;

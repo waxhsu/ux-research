@@ -11,7 +11,7 @@ import Footer from "../components/Footer/Footer";
 import Testimonials from "../components/Testimonials/Testimonials";
 import TestComponent from "../components/TestComponent/TestComponent";
 import VideoSeries from "../components/VideoSeries/VideoSeries";
-import HorizontalModal from "../components/HorizontalModal/HorizontalModal";
+import HorizontalCohortSelector from "../components/HorizontalCohortSelector/HorizontalCohortSelector";
 
 
 export default function Teams() {
@@ -95,7 +95,7 @@ export default function Teams() {
                 </div>
             </TestComponent>
 
-            < HorizontalModal />
+            < HorizontalCohortSelector />
 
             <TestComponent>
                 <div>
