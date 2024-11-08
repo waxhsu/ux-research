@@ -1,15 +1,15 @@
 import React from "react"
-import "./Modal.css"
+import "./VerticalCohortSelector.css"
 import { Link } from "react-router-dom"
 import { COHORT_DATE_RANGE_NOVEMBER } from "../Calendar/CalendarData"
 import { COHORT_DATE_RANGE_DECEMBER } from "../Calendar/CalendarData"
 import { COHORT_DATE_RANGE_JANUARY } from "../Calendar/CalendarData"
 
-export default function Modal() {
+export default function VerticalCohortSelector() {
     return (
 
-        <div className="modal">
-            <img src="./images/11.png" alt="Outcome-Driven UX Metrics" className="modal-image" />
+        <div className="verticalCohortSelector">
+            <img src="./images/11.png" alt="Outcome-Driven UX Metrics" className="cohortSelector-image" />
             <span>Next Cohorts:</span>
             <div>
 
@@ -19,7 +19,7 @@ export default function Modal() {
                         <p><b>{COHORT_DATE_RANGE_NOVEMBER[0].start} - {COHORT_DATE_RANGE_NOVEMBER[0].end}</b></p>
                         <Link to="/novemberschedule">See Schedule</Link>
                     </div>
-                    <button className="btn-shadow">  <Link to="/november" className="modal-button-link">Join Cohort</Link></button>
+                    <button className="btn-shadow">  <Link to="/november" className="cohortSelector-button-link">Join Cohort</Link></button>
                 </div>
                 {/* FIRST COHORT END */}
 
@@ -30,7 +30,7 @@ export default function Modal() {
                     <p><b>{COHORT_DATE_RANGE_DECEMBER[0].start} - {COHORT_DATE_RANGE_DECEMBER[0].end}</b></p>
                         <Link to="/decemberschedule">See Schedule</Link>
                     </div>
-                    <button className="btn-shadow">  <Link to="/december" className="modal-button-link">Join Cohort</Link></button>
+                    <button className="btn-shadow">  <Link to="/december" className="cohortSelector-button-link">Join Cohort</Link></button>
                 </div>
                 {/* SECOND COHORT END */}
 
@@ -42,7 +42,7 @@ export default function Modal() {
                     <p><b>{COHORT_DATE_RANGE_JANUARY[0].start} - {COHORT_DATE_RANGE_JANUARY[0].end}</b></p>
                         <Link to="/januaryschedule">See Schedule</Link>
                     </div>
-                    <button className="btn-shadow">  <Link to="/january" className="modal-button-link">Join Cohort</Link></button>
+                    <button className="btn-shadow">  <Link to="/january" className="cohortSelector-button-link">Join Cohort</Link></button>
                 </div>
                 {/* THIRD COHORT END */}
 

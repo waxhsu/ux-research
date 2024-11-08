@@ -7,7 +7,7 @@ import GreenArticle from "../components/GreenArticle/GreenArticle";
 import Footer from "../components/Footer/Footer";
 import TestComponent from "../components/TestComponent/TestComponent";
 import CalendarOct from "../components/Calendar/CalendarOct";
-import HorizontalModal from "../components/HorizontalModal/HorizontalModal";
+import HorizontalModal from "../components/HorizontalCohortSelector/HorizontalCohortSelector";
 import Navbar from "../components/Navbar/Navbar";
 
 export default function ScheduleOctober() {

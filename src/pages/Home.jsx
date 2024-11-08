@@ -7,10 +7,10 @@ import CourseSchedule from '../components/CourseSchedule/CourseSchedule';
 import JaredSpool from '../components/JaredSpool/JaredSpool';
 import VideoSeries from '../components/VideoSeries/VideoSeries';
 import Footer from '../components/Footer/Footer';
-import Modal from "../components/Modal/Modal";
+import Modal from "../components/VerticalCohortSelector/VerticalCohortSelector";
 import TestComponent from "../components/TestComponent/TestComponent";
 import PurchaseBox from "../components/PurchaseBox/PurchaseBox";
-import HorizontalModal from "../components/HorizontalModal/HorizontalModal";
+import HorizontalCohortSelector from "../components/HorizontalCohortSelector/HorizontalCohortSelector";
 import Navbar from '../components/Navbar/Navbar';
 
 export default function Home() {
@@ -76,7 +76,7 @@ export default function Home() {
                 <span><b>- UX Researcher and Designer </b></span>
             </Testimonials>
             <CourseSchedule />
-            < HorizontalModal />
+            < HorizontalCohortSelector />
             <JaredSpool />
 
             <TestComponent>

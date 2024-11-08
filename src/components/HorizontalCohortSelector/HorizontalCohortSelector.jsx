@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import "./HorizontalModal.css"
+import "./HorizontalCohortSelector.css"
 import { Link } from "react-router-dom"
-import { COHORT_DATE_RANGE_OCTOBER } from '../Calendar/CalendarData'
+// import { COHORT_DATE_RANGE_OCTOBER } from '../Calendar/CalendarData'
 import { COHORT_DATE_RANGE_NOVEMBER } from '../Calendar/CalendarData'
 import { COHORT_DATE_RANGE_DECEMBER } from '../Calendar/CalendarData'
 import { COHORT_DATE_RANGE_JANUARY } from '../Calendar/CalendarData'
 
-export default function HorizontalModal() {
+export default function HorizontalCohortSelector() {
 
     // State and hooks to change the h1 on resize
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -26,23 +26,23 @@ export default function HorizontalModal() {
 
     return (
 
-        <div className="horizontalModal">
+        <div className="horizontalCohortSelector">
 
-            <div className="horizontalModal-container">
-            <span><b>{isMobile ? "Next Cohorts" : "Check Out Schedules for Future Dates"}:</b></span>
+            <div className="horizontalCohortSelector-container">
+            <span><b>{isMobile ? "Next Cohorts" : "Check Out Our Upcoming Cohorts"}:</b></span>
 
                 <div className="cohort-1-container">
-                    {/* <div className="horizontal-cohort-1">
+                    <div className="horizontal-cohort-1">
                         <div className="horizontal-cohort-paragraphs">
                             <p><b>
-                            {COHORT_DATE_RANGE_OCTOBER[0].start} - {COHORT_DATE_RANGE_OCTOBER[0].end}
+                            {COHORT_DATE_RANGE_NOVEMBER[0].start} - {COHORT_DATE_RANGE_NOVEMBER[0].end}
                             </b></p>
-                            <Link to="/octoberschedule">See Schedule</Link>
+                            <Link to="/novemberschedule">See Schedule</Link>
                         </div>
                         <button className="btn-shadow">
-                            <Link to="/october" className="modal-button-link">Join Cohort</Link>
+                            <Link to="/november" className="cohortSelector-button-link">Join Cohort</Link>
                         </button>
-                    </div> */}
+                    </div>
 
                     <div className="horizontal-cohort-1">
                         <div className="horizontal-cohort-paragraphs">
@@ -52,7 +52,7 @@ export default function HorizontalModal() {
                             <Link to="/decemberschedule">See Schedule</Link>
                         </div>
                         <button className="btn-shadow">
-                            <Link to="/december" className="modal-button-link">Join Cohort</Link>
+                            <Link to="/december" className="cohortSelector-button-link">Join Cohort</Link>
                         </button>
                     </div>
 
@@ -64,7 +64,7 @@ export default function HorizontalModal() {
                             <Link to="/januaryschedule">See Schedule</Link>
                         </div>
                         <button className="btn-shadow">
-                            <Link to="/january" className="modal-button-link">Join Cohort</Link>
+                            <Link to="/january" className="cohortSelector-button-link">Join Cohort</Link>
                         </button>
                     </div>
 

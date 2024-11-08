@@ -7,7 +7,7 @@ import GreenArticle from "../components/GreenArticle/GreenArticle";
 import Footer from "../components/Footer/Footer";
 import TestComponent from "../components/TestComponent/TestComponent";
 import CalendarNov from "../components/Calendar/CalendarNov";
-import HorizontalModal from "../components/HorizontalModal/HorizontalModal";
+import HorizontalCohortSelector from "../components/HorizontalCohortSelector/HorizontalCohortSelector";
 import Navbar from "../components/Navbar/Navbar";
 
 export default function ScheduleNovember() {
@@ -26,7 +26,7 @@ export default function ScheduleNovember() {
                     <p>We welcome folks from other time zones to join us. </p>
                 </div>
             </TestComponent>
-            <HorizontalModal />
+            <HorizontalCohortSelector />
 
             < Footer />
         </div >

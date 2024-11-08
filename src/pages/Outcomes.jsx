@@ -8,9 +8,9 @@ import Header from "../components/Header/Header";
 import Navbar from "../components/Navbar/Navbar";
 import GreenArticle from "../components/GreenArticle/GreenArticle";
 import RightContent from "../components/RightContent/RightContent";
-import Modal from "../components/Modal/Modal";
+import Modal from "../components/VerticalCohortSelector/VerticalCohortSelector";
 import TestComponent from "../components/TestComponent/TestComponent";
-import HorizontalModal from "../components/HorizontalModal/HorizontalModal";
+import HorizontalCohortSelector from "../components/HorizontalCohortSelector/HorizontalCohortSelector";
 
 import Footer from "../components/Footer/Footer";
 
@@ -98,7 +98,7 @@ export default function Outcomes() {
                 </div>
             </RightContent>
             <div className="horizontal-modal-grey-container">
-                < HorizontalModal />
+                < HorizontalCohortSelector />
             </div>
             <Footer />
         </div>

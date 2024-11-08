@@ -1,4 +1,4 @@
-.modal {
+.verticalCohortSelector {
     display: flex;
     flex-direction: column;
     border-radius: 1em;
@@ -15,7 +15,7 @@
     background-color: white;
 }
 
-.modal-container {
+.verticalCohortSelector-container {
     position: absolute;
     bottom: 65%;
     left: 65%;
@@ -23,7 +23,7 @@
 }
 
 /* keep this */
-.modal-image {
+.cohortSelector-image {
     width: 18em;
 
 }
@@ -63,7 +63,7 @@ a {
 
 }
 
-.modal-button-link {
+.cohortSelector-button-link {
     color: white;
     text-decoration: none;
 }
@@ -82,7 +82,7 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-    .modal {
+    .verticalCohortSelector {
         width: 20em;
         align-items: center;
 
