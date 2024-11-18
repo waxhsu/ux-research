@@ -5,10 +5,7 @@ import { Link, useLocation } from 'react-router-dom';
 // components
 import Header from "../components/Header/Header";
 import GreenArticle from "../components/GreenArticle/GreenArticle";
-import Article from "../components/Article/Article";
 import Footer from "../components/Footer/Footer";
-import Modal from "../components/VerticalCohortSelector/VerticalCohortSelector";
-import LeftContent from "../components/LeftContent/LeftContent";
 import TestComponent from "../components/TestComponent/TestComponent";
 import SpiffyCheckout from "../components/SpiffyCheckout/SpiffyCheckout";
 
@@ -27,7 +24,7 @@ export default function December() {
                 </div>
                 <div className="test-component-content-container">
                     <img src="./images/11.png" alt="Outcome Driven UX Metrics" />
-                    <button className="btn btn-shadow test-component-purchase button modal-button-link"> <Link to="/decemberschedule" className="modal-button-link">December Schedule</Link></button>
+                    <button className="btn btn-shadow test-component-purchase button cohortSelector-button-link"> <Link to="/decemberschedule" className="cohortSelector-button-link">December Schedule</Link></button>
                 </div>
             </TestComponent >
             <TestComponent>

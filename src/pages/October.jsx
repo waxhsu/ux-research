@@ -28,7 +28,7 @@ export default function October() {
                 </div>
                 <div className="test-component-content-container">
                     <img src="./images/11.png" alt="Outcome Driven UX Metrics" />
-                    <button className="btn btn-shadow test-component-purchase button modal-button-link"> <Link to="/octoberschedule" className="modal-button-link">October Schedule</Link></button>
+                    <button className="btn btn-shadow test-component-purchase button cohortSelector-button-link"> <Link to="/octoberschedule" className="cohortSelector-button-link">October Schedule</Link></button>
                 </div>
             </TestComponent >
             <TestComponent>
