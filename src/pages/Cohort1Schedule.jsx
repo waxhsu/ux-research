@@ -6,19 +6,19 @@ import Header from "../components/Header/Header";
 import GreenArticle from "../components/GreenArticle/GreenArticle";
 import Footer from "../components/Footer/Footer";
 import TestComponent from "../components/TestComponent/TestComponent";
-import CalendarOct from "../components/Calendar/CalendarOct";
+import Cohort1Calendar from "../components/Calendar/Cohort1Calendar";
 import HorizontalModal from "../components/HorizontalCohortSelector/HorizontalCohortSelector";
 import Navbar from "../components/Navbar/Navbar";
 
-export default function ScheduleOctober() {
+export default function Cohort1Schedule() {
     return (
-        <div className="ScheduleOctober">
+        <div id="Cohort1-Schedule">
             <Navbar />
             <Header />
             < GreenArticle >
                 <h1>October Schedule</h1>
             </GreenArticle >
-            < CalendarOct />
+            < Cohort1Calendar />
             <TestComponent>
                 <div className="schedule-paragraphs">
                     <p>You must watch the lecture before that day’s Live Coaching session. However, if you’re the type of person who likes to be super prepared, you can watch the recording on your own time before this session. You’ll have access to all the recordings before the course begins, so you can even binge-watch them.</p>

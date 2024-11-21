@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
+// This cohort started in OCTOBER and will end in JANUARY
 
 // components
 import Header from "../components/Header/Header";
@@ -10,9 +11,9 @@ import TestComponent from "../components/TestComponent/TestComponent";
 import SpiffyCheckout from "../components/SpiffyCheckout/SpiffyCheckout";
 import Navbar from "../components/Navbar/Navbar";
 
-export default function October() {
+export default function Cohort1() {
     return (
-        <div className="October">
+        <div id="Cohort1">
             <Navbar />
             <Header />
             < GreenArticle >
@@ -28,7 +29,7 @@ export default function October() {
                 </div>
                 <div className="test-component-content-container">
                     <img src="./images/11.png" alt="Outcome Driven UX Metrics" />
-                    <button className="btn btn-shadow test-component-purchase button cohortSelector-button-link"> <Link to="/octoberschedule" className="cohortSelector-button-link">October Schedule</Link></button>
+                    <button className="btn btn-shadow test-component-purchase button cohortSelector-button-link"> <Link to="/cohort1-schedule" className="cohortSelector-button-link">October Schedule</Link></button>
                 </div>
             </TestComponent >
             <TestComponent>
