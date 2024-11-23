@@ -33,7 +33,7 @@ export default function Navbar() {
                         {/* UPDATE THE MONTH AFTER EACH COHORT */}
                         {/* UPDATE THE MONTH AFTER EACH COHORT */}
                         {/* UPDATE THE MONTH AFTER EACH COHORT */}
-                        <Link to="/november">Join Next Cohort</Link>
+                        <Link to="/cohort2">Join Next Cohort</Link>
                         {/* UPDATE THE MONTH AFTER EACH COHORT */}
                         {/* UPDATE THE MONTH AFTER EACH COHORT */}
                         {/* UPDATE THE MONTH AFTER EACH COHORT */}
