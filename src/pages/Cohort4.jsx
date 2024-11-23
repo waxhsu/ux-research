@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import { COHORT_DATE_RANGE_JANUARY } from "../components/Calendar/CalendarData"
+
 
 // components
 import Header from "../components/Header/Header";
@@ -10,9 +10,9 @@ import TestComponent from "../components/TestComponent/TestComponent";
 import SpiffyCheckout from "../components/SpiffyCheckout/SpiffyCheckout";
 import Navbar from "../components/Navbar/Navbar";
 
-export default function January() {
+export default function Cohort4() {
     return (
-        <div className="January">
+        <div id="Cohort4">
             <Navbar />
             <Header />
             < GreenArticle >
@@ -20,19 +20,17 @@ export default function January() {
             </GreenArticle >
             <TestComponent >
                 <div className="width-500">
-                    {/* <h3><b>Cohort: {COHORT_DATE_RANGE_JANUARY[0].start} - {COHORT_DATE_RANGE_JANUARY[0].end}</b></h3> */}
                     <h2>Develop your own organization’s Outcome-driven UX Metrics.</h2>
                     <p>Join us to complete your journey with metrics that will <b>drive your organization to deliver better-designed products and services.</b></p>
                     <p>You won’t make up imaginary, over-simplified metrics for fake companies and products in this intensive. Instead, you (and your team, if you bring them along) will roll up your sleeves and identify the critical metrics for your products and services.</p>
                 </div>
                 <div className="test-component-content-container">
                     <img src="./images/11.png" alt="Outcome Driven UX Metrics" />
-                    <button className="btn btn-shadow test-component-purchase button cohortSelector-button-link"> <Link to="/Januaryschedule" className="cohortSelector-button-link">January Schedule</Link></button>
+                    <button className="btn btn-shadow test-component-purchase button cohortSelector-button-link"> <Link to="/cohort4-schedule" className="cohortSelector-button-link">January Schedule</Link></button>
                 </div>
             </TestComponent >
             <TestComponent>
                 <div className="">
-
                     <h2>Choose to sign up as an Individual or a Team Member</h2>
                     <p>You’ll get the most out of your course if you come with your team.</p>
 

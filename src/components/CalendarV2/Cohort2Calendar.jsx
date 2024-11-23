@@ -42,17 +42,13 @@ export default function CalendarV2() {
         <div className={containerClass}>
             <div className='calendar'>
                 <h2>Cohort: {COHORT2_DATE_RANGE[0].start} - {COHORT2_DATE_RANGE[0].end}</h2>
-
-                {/* <h3>UPDATE IF YOU NEED TO ANNOUNCE ANY CHANGES TO THE ENTIRE SCHEDULE</h3> */}
-                
+                <h3>UPDATE New Start Date For Cohort Previously Starting Oct 29.</h3>
                 {events.map((event, index) => {
                     return (
                         <div className='test123' key={index}>
                             <div id='scheduleCard'>
                                 <div id='WeekNUM'>
                                     <div className='weekInfo'>Week {event.week} of 4</div>
-
-
 
                                     {/* Odd Numbered Topic */}
                                     <div id='oddTopicNumber' className='headerTitle' onClick={() => toggleDetails(index)}>

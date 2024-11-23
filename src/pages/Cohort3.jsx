@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 // components
@@ -10,14 +10,13 @@ import TestComponent from "../components/TestComponent/TestComponent";
 import SpiffyCheckout from "../components/SpiffyCheckout/SpiffyCheckout";
 import Navbar from "../components/Navbar/Navbar";
 
-export default function November() {
+export default function Cohort3() {
     return (
-        <div className="October">
+        <div id="Cohort3">
             <Navbar />
-
             <Header />
             < GreenArticle >
-                <h1>Join November Cohort</h1>
+                <h1>Join December Cohort</h1>
             </GreenArticle >
             <TestComponent >
                 <div className="width-500">
@@ -27,7 +26,7 @@ export default function November() {
                 </div>
                 <div className="test-component-content-container">
                     <img src="./images/11.png" alt="Outcome Driven UX Metrics" />
-                    <button className="btn btn-shadow test-component-purchase button cohortSelector-button-link"> <Link to="/novemberschedule" className="cohortSelector-button-link">November Schedule</Link></button>
+                    <button className="btn btn-shadow test-component-purchase button cohortSelector-button-link"> <Link to="/cohort3-schedule" className="cohortSelector-button-link">December Schedule</Link></button>
                 </div>
             </TestComponent >
             <TestComponent>
@@ -50,9 +49,9 @@ export default function November() {
                 </div>
             </TestComponent >
 
-            <SpiffyCheckout >
-            <h2>Join the November UX Metrics Cohort</h2>
-                <spiffy-checkout url="https://centercentre.spiffy.co/checkout/ux-metrics-nov" ></spiffy-checkout>
+            <SpiffyCheckout>
+            <h2>Join the December UX Metrics Cohort</h2>
+                <spiffy-checkout url="https://centercentre.spiffy.co/checkout/ux-metrics-dec" ></spiffy-checkout>
             </SpiffyCheckout>
 
 
