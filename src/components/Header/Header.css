@@ -64,6 +64,58 @@
 
 }
 
+/* Styling for the Hero section */
+.hero {
+  display: flex;
+}
+
+.hero > .programName {
+  /* max-width: 10em; */
+  max-height: 10em;
+  height: auto;
+  margin: 0 1em 0 0;
+}
+
+.hero > .jared {
+  max-width: 10em;
+  max-height: 10em;
+  height: auto;
+  margin: 0 1em 0 0;
+}
+
+.hero-paragraphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.hero-paragraphs p {
+  margin: 0.25em;
+  font-size: 20px
+}
+
+/* Styles for the main heading and subtitle */
+h1 {
+  font-size: 3em;
+  margin: 1em 0 0 0;
+}
+
+.online-course {
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive styles for smaller screens */
 /* Updated styles for the header-links in mobile view */
 @media (max-width: 768px) {
@@ -132,54 +184,22 @@
 
   }
 
+  .hero {
+    flex-direction: column;
+  
+  }
+
   .hero-paragraphs p {
-    font-size: 14px
+    font-size: 20px
+  }
+
+  .hero > .jared {
+    display: none;
   }
 
   .hero > .programName {
-    display: none;
+    max-width: 20em;
+    max-height: 20em;
+    /* margin: 0 1em 0 0; */
   }
 }
-
-/* Styling for the Hero section */
-.hero {
-  display: flex;
-}
-
-.hero > .programName {
-  /* max-width: 10em; */
-  max-height: 10em;
-  height: auto;
-  margin: 0 1em 0 0;
-}
-
-.hero > .jared {
-  max-width: 10em;
-  max-height: 10em;
-  height: auto;
-  margin: 0 1em 0 0;
-}
-
-.hero-paragraphs {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-weight: 700;
-}
-
-.hero-paragraphs p {
-  margin: 0.25em;
-  font-size: 20px
-}
-
-/* Styles for the main heading and subtitle */
-h1 {
-  font-size: 3em;
-  margin: 1em 0 0 0;
-}
-
-.online-course {
-  font-size: 1.2em;
-  margin-top: 1em;
-}
-

@@ -13,7 +13,7 @@
     flex-direction: column;
     width: 75%;
     margin: 0 auto;
-    height: 16em;
+    height: 18em;
     justify-content: center;
     /* align-items: center; */
     max-width: 60em;
@@ -38,7 +38,8 @@
 @media only screen and (max-width: 768px) {
 
     .GreenArticle-content {
-        width: 85%
+        width: 85%;
+        height: 14em;
     }
 
     /* Adjust the width for mobile devices */

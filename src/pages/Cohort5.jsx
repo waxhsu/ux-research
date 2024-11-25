@@ -26,7 +26,7 @@ export default function Cohort5() {
                 </div>
                 <div className="test-component-content-container">
                     <img src="./images/11.png" alt="Outcome Driven UX Metrics" />
-                    <button className="btn btn-shadow test-component-purchase button cohortSelector-button-link"> <Link to="/cohort3-schedule" className="cohortSelector-button-link">February Schedule</Link></button>
+                    <button className="btn btn-shadow test-component-purchase button cohortSelector-button-link"> <Link to="/cohort5-schedule" className="cohortSelector-button-link">February Schedule</Link></button>
                 </div>
             </TestComponent >
             <TestComponent>
