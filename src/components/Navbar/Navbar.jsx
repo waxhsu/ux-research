@@ -31,11 +31,7 @@ export default function Navbar() {
                         <Link to="/teams">Team Pricing</Link>
 
                         {/* UPDATE THE MONTH AFTER EACH COHORT */}
-                        {/* UPDATE THE MONTH AFTER EACH COHORT */}
-                        {/* UPDATE THE MONTH AFTER EACH COHORT */}
-                        <Link to="/cohort2">Join Next Cohort</Link>
-                        {/* UPDATE THE MONTH AFTER EACH COHORT */}
-                        {/* UPDATE THE MONTH AFTER EACH COHORT */}
+                        <Link to="/cohort3">Join Next Cohort</Link>
                         {/* UPDATE THE MONTH AFTER EACH COHORT */}
                     </div>
                 </nav>

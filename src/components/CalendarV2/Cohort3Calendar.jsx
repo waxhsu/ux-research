@@ -40,7 +40,7 @@ export default function CalendarV2() {
     return (
         // containerClass here is a CSS class that toggles off on the home page.
         <div className={containerClass}>
-            <div className='calendar'>
+            <div className='calendarV2'>
                 <h2>Cohort: {COHORT3_DATE_RANGE[0].start} - {COHORT3_DATE_RANGE[0].end}</h2>
                 
                 {/* <h3>UPDATE IF YOU NEED TO ANNOUNCE ANY CHANGES TO THE ENTIRE SCHEDULE</h3> */}

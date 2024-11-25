@@ -14,6 +14,13 @@ const BASE_ID = process.env.REACT_APP_BASE_ID;
 
 // const TABLE_ID_COHORT# = process.env.REACT_APP_TABLE_ID_COHORT#;
 
+// export const COHORT#_DATE_RANGE = [
+//   {
+//     start: `MONTH DAY`,
+//     end: `MONTH DAY`,
+//   }
+// ]
+
 // export const fetchCohort# = async () => {    <------ UPDATE
 //   const url = `https://api.airtable.com/v0/${BASE_ID}/${TABLE_ID_COHORT#}`; <----- UPDATE
 //   const headers = { Authorization: `Bearer ${AIRTABLE_API_KEY}` };
@@ -56,6 +63,13 @@ const BASE_ID = process.env.REACT_APP_BASE_ID;
 /// COHORT 5 START ///
 
 const TABLE_ID_COHORT5 = process.env.REACT_APP_TABLE_ID_COHORT5;
+
+export const COHORT5_DATE_RANGE = [
+  {
+    start: `Feb 18`,
+    end: `Mar 13`,
+  }
+]
 
 export const fetchCohort5 = async () => {
   const url = `https://api.airtable.com/v0/${BASE_ID}/${TABLE_ID_COHORT5}`;
