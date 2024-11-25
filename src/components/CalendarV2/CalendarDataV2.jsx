@@ -12,7 +12,7 @@ const BASE_ID = process.env.REACT_APP_BASE_ID;
 /// COHORT # START ///
 /// COHORT # START ///
 
-// const TABLE_ID_COHORT# = process.env.REACT_APP_TABLE_ID_COHORT4;
+// const TABLE_ID_COHORT# = process.env.REACT_APP_TABLE_ID_COHORT#;
 
 // export const fetchCohort# = async () => {    <------ UPDATE
 //   const url = `https://api.airtable.com/v0/${BASE_ID}/${TABLE_ID_COHORT#}`; <----- UPDATE
@@ -51,7 +51,42 @@ const BASE_ID = process.env.REACT_APP_BASE_ID;
 
 
 
+/// COHORT 5 START ///
+/// COHORT 5 START ///
+/// COHORT 5 START ///
 
+const TABLE_ID_COHORT5 = process.env.REACT_APP_TABLE_ID_COHORT5;
+
+export const fetchCohort5 = async () => {
+  const url = `https://api.airtable.com/v0/${BASE_ID}/${TABLE_ID_COHORT5}`;
+  const headers = { Authorization: `Bearer ${AIRTABLE_API_KEY}` };
+
+  try {
+    const response = await axios.get(url, { headers });
+    return response.data.records.map(record => ({
+      week: record.fields.Week,
+
+      name1: record.fields.Name1,
+      timeLecture1: record.fields.TimeLecture1,
+      timeCoaching1: record.fields.TimeCoaching1,
+      rich1: record.fields.RichText1,
+
+      name2: record.fields.Name2,
+      timeLecture2: record.fields.TimeLecture2,
+      timeCoaching2: record.fields.TimeCoaching2,
+      rich2: record.fields.RichText2,
+      
+    }));
+  } catch (error) {
+    console.error('Error fetching data from Airtable', error);
+    return [];
+  }
+};
+
+
+/// COHORT 5 END ///
+/// COHORT 5 END ///
+/// COHORT 5 END ///
 
 
 
