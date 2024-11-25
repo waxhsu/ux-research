@@ -4,7 +4,8 @@ import './Header.css';
 export function Hero() {
     return (
         <div className="hero">
-            <img src="/images/Jared_Spool 2.png" alt="Jared" />
+            <img className="programName" src="/images/11.png" alt="Outcome-Driven UX Metrics"/>
+            <img className="jared" src="/images/Jared_Spool 2.png" alt="Jared" />
             <div className="hero-paragraphs">
                 <p>Small Group Coaching</p>
                 <p>8 Hours Live with Jared Spool <br />8 Hours of Recorded Content</p>
