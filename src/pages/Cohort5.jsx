@@ -52,7 +52,7 @@ export default function Cohort5() {
             <SpiffyCheckout>
             <h2>Join the February UX Metrics Cohort</h2>
                 <spiffy-checkout 
-                    url="https://centercentre.spiffy.co/checkout/ux-metrics-dec"
+                    url="https://centercentre.spiffy.co/checkout/ux-metrics-cohort-5"
                 ></spiffy-checkout>
             </SpiffyCheckout>
 
