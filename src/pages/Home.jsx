@@ -20,16 +20,14 @@ export default function Home() {
             <Header />
 
             < GreenArticle >
-                <p>To get real measurable UX results, we need to focus on our customers’ and users’ real needs.
-                </p>
+                <p>To get real measurable UX results, we need to focus on our customers’ and users’ real needs.</p>
                 <p>Everything we do and measure should be outcome-based. No more measuring for measuring sake. </p>
             </GreenArticle >
             <TestComponent >
                 <div className="article-content">
-                    <h2>Outcome-Driven UX Metrics.</h2>
+                    <h2>Advanced Strategic UX Research –</h2>
                     <h2>Measuring your users’ actual experience.</h2>
-                    <p><b>Outcome-Driven UX Metrics</b> is our radical approach to measuring and reporting UX metrics with your organization. You’ll directly measure how every new release of your products and services improves your customers’ and users’ lives.
-                    </p>
+                    <p><b>Outcome-Driven UX Metrics</b> is our radical approach to measuring and reporting UX metrics with your organization. You’ll directly measure how every new release of your products and services improves your customers’ and users’ lives.</p>
                     <p>When you share Outcome-driven UX Metrics, you’ll…
                     </p>
                     <ul>

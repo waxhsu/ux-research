@@ -16,16 +16,10 @@ export default function Cohort3Schedule() {
             <Navbar />
             <Header />
             <GreenArticle >
-                <h1>December Schedule</h1>
+                <h1>February Schedule</h1>
             </GreenArticle >
             <Cohort5Calendar />
-            <TestComponent>
-                <div className="schedule-paragraphs">
-                    <p>You must watch the lecture before that day’s Live Coaching session. However, if you’re the type of person who likes to be super prepared, you can watch the recording on your own time before this session. You’ll have access to all the recordings before the course begins, so you can even binge-watch them.</p>
-                    <p>All times listed are in Eastern Time Zone.</p>
-                    <p>We welcome folks from other time zones to join us. </p>
-                </div>
-            </TestComponent>
+            <TestComponent />
             <HorizontalCohortSelector />
             < Footer />
         </div >

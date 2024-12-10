@@ -2,7 +2,6 @@ import React from "react"
 import "./VerticalCohortSelector.css"
 import { Link } from "react-router-dom"
 
-import { COHORT2_DATE_RANGE } from "../CalendarV2/CalendarDataV2"
 import { COHORT3_DATE_RANGE } from "../CalendarV2/CalendarDataV2"
 import { COHORT4_DATE_RANGE } from "../CalendarV2/CalendarDataV2"
 import { COHORT5_DATE_RANGE } from "../CalendarV2/CalendarDataV2"
@@ -11,7 +10,7 @@ export default function VerticalCohortSelector() {
     return (
 
         <div className="verticalCohortSelector">
-            <img src="./images/11.png" alt="Outcome-Driven UX Metrics" className="cohortSelector-image" />
+            <img src="./images/UXresearchImg.png" alt="Advance Stragetic UX Research" className="cohortSelector-image" />
             <span>Next Cohorts:</span>
             <div>
 
