@@ -8,6 +8,56 @@
     margin-top: 1em;
 }
 
+
+.scheduleTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courseSchedule-container {
+    min-width: 50%;
+}
+.courseSchedule-container h1{
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+
+
+.timezone-container {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.timezone-container p{
+    text-align: right;
+    /* border: red solid 2px; */
+    font-size: 12px;
+    margin: 0;
+}
+
+.timezoneText {
+    padding: 0 0 1em 0;
+}
+
+select {
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    height: 2.2rem;
+    font-weight: 700;
+    width: fit-content;
+}
+
+
+
+
+
+
+
 #scheduleCard {
     display: flex;
     flex-direction: column;
@@ -38,8 +88,6 @@
     margin-bottom: 7px;
 }
 
-
-
 .scheduleIconImg {
     max-width: 1.75rem;
     max-height: 1.75rem;
@@ -52,7 +100,6 @@
     /* 90-degree rotation */
 }
 
-
 .classTitle {
     align-content: center;
     padding-right: 1em;
@@ -64,8 +111,6 @@
     text-decoration: underline;
 }
 
-
-
 .subTitle,
 .topicDetails {
     padding: 15px 30px 15px;
@@ -74,7 +119,6 @@
     background-color: white;
     margin-bottom: 0.5rem;
 }
-
 
 .topicDetails {
     display: flex;
@@ -85,8 +129,6 @@
 .topicDetails p{
     margin: 5px 0;
 }
-
-
 
 .mobile-row {
     display: flex;
@@ -117,7 +159,54 @@
 
 
 
+
+
+
 @media only screen and (max-width: 768px) {
+
+    .scheduleTitle {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 0 1em 0;
+    }
+    
+    .courseSchedule-container {
+        min-width: 100%;
+    }
+    .courseSchedule-container h1{
+        margin: 0;
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+    
+    .timezone-container {
+        align-items: flex-start;
+        padding: 0;
+    }
+    
+    .timezone-container p{
+        text-align: left;
+        font-size: 12px;
+        margin: 0;
+    }
+    
+    .timezoneText {
+        padding: 0 0 0.75em 0;
+    }
+    
+    select {
+        text-align: center;
+        background-color: rgb(235, 235, 235);
+        border-radius: 10px;
+        height: 2.2rem;
+        font-weight: 700;
+        width: fit-content;
+    }
+
+
+
+
 
     /* Adjust the width for mobile devices */
     .courseSchedule p,
@@ -129,9 +218,6 @@
     .calendarV2 {
         display: flex;
         flex-direction: column;
-        /* margin: 0 auto; */
-        /* width: 75%; */
-        /* border: 1px solid red; */
         max-width: 80em;
         margin-top: 1em;
     }
@@ -148,8 +234,6 @@
     }
 
     .headerTitle {
-        /* flex-direction: column; */
-        /* align-items: left; */
         font-size: 14px;
         line-height: 1.2rem;
     }

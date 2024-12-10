@@ -26,9 +26,9 @@ export default function Navbar() {
 
                     <div className={`header-links ${menuOpen ? 'open' : ''}`}>
                         <Link to="/">Home</Link>
-                        <Link to="/topics">Course Topics</Link>
-                        <Link to="/outcomes">Why UX Outcomes?</Link>
-                        <Link to="/teams">Team Pricing</Link>
+                        <Link to="/page1">Page 1</Link>
+                        <Link to="/page2">Page 2</Link>
+                        <Link to="/page3">Page 3</Link>
 
                         {/* UPDATE THE MONTH AFTER EACH COHORT */}
                         <Link to="/cohort3">Join Next Cohort</Link>
