@@ -3,13 +3,8 @@
     flex-direction: column;
     border-radius: 1em;
     padding: 1em;
-    /* currently only 1 cochort to join */
-    /* max-height: 25em; */
-    /* when there's 3 cohorts to join */
-    /* max-height: 35em; */
     font-weight: 600;
     background-color: white;
-    /* border: 1px solid red; */
     max-width: 60em;
     margin: 0 auto;
     width: 75%;
@@ -27,7 +22,6 @@
 }
 
 .horizontal-cohort-paragraphs>p {
-    /* border: red solid 2px; */
     margin: 0;
 }
 
@@ -49,7 +43,7 @@ a {
 }
 
 .horizontal-cohort-1 button {
-    background: #9B0E5B;
+    background: #EC621D;
     color: white;
     width: 120px;
     height: 40px;

@@ -54,6 +54,60 @@ const BASE_ID = process.env.REACT_APP_BASE_ID;
 
 
 
+/// COHORT 6 START ///
+/// COHORT 6 START ///
+/// COHORT 6 START ///
+
+const TABLE_ID_COHORT6 = process.env.REACT_APP_TABLE_ID_COHORT6;
+
+export const COHORT6_DATE_RANGE = [
+  {
+    start: `Mar 3`,
+    end: `Mar 26`,
+  }
+]
+
+export const fetchCohort6 = async () => {
+  const url = `https://api.airtable.com/v0/${BASE_ID}/${TABLE_ID_COHORT6}`;
+  const headers = { Authorization: `Bearer ${AIRTABLE_API_KEY}` };
+
+  try {
+    const response = await axios.get(url, { headers });
+    return response.data.records.map(record => ({
+      week: record.fields.Week,
+
+      name1: record.fields.Name1,
+      rich1: record.fields.RichText1,
+      date1: record.fields.DateOutput1,
+
+      watchStart1: record.fields.WatchStart1,
+      watchEnd1: record.fields.WatchEnd1,
+      coachStart1: record.fields.CoachStart1,
+      coachEnd1: record.fields.CoachEnd1,
+      
+
+      name2: record.fields.Name2,
+      rich2: record.fields.RichText2,
+      date2: record.fields.DateOutput2,
+
+      watchStart2: record.fields.WatchStart2,
+      watchEnd2: record.fields.WatchEnd2,
+      coachStart2: record.fields.CoachStart2,
+      coachEnd2: record.fields.CoachEnd2,
+    }));
+  } catch (error) {
+    console.error('Error fetching data from Airtable', error);
+    return [];
+  }
+};
+
+
+/// COHORT 6 END ///
+/// COHORT 6 END ///
+/// COHORT 6 END ///
+
+
+
 
 
 
@@ -237,12 +291,13 @@ export const fetchCohort3 = async () => {
 /// COHORT 2 START ///
 /// COHORT 2 START ///
 
+
 const TABLE_ID_COHORT2 = process.env.REACT_APP_TABLE_ID_COHORT2;
 
 export const COHORT2_DATE_RANGE = [
   {
-    start: `Nov 18`,
-    end: `Dec 19`,
+    start: `Dec 10`,
+    end: `Jan 17`,
   }
 ]
 
@@ -295,17 +350,17 @@ export const fetchCohort2 = async () => {
 /// COHORT 1 START ///
 /// COHORT 1 START ///
 
-const TABLE_ID_OCTOBER = process.env.REACT_APP_TABLE_ID_OCTOBER;
+const TABLE_ID_COHORT1 = process.env.REACT_APP_TABLE_ID_COHORT1;
 
-export const COHORT_DATE_RANGE_OCTOBER = [
+export const COHORT1_DATE_RANGE = [
   {
-    start: `Nov 5`,
-    end: `Dec 3`,
+    start: `Nov 18`,
+    end: `Dec 19`,
   }
 ]
 
-export const fetchOctober = async () => {
-  const url = `https://api.airtable.com/v0/${BASE_ID}/${TABLE_ID_OCTOBER}`;
+export const fetchCohort1 = async () => {
+  const url = `https://api.airtable.com/v0/${BASE_ID}/${TABLE_ID_COHORT1}`;
   const headers = { Authorization: `Bearer ${AIRTABLE_API_KEY}` };
 
   try {
@@ -338,6 +393,7 @@ export const fetchOctober = async () => {
     return [];
   }
 };
+
 
 /// COHORT 1 END ///
 /// COHORT 1 END ///

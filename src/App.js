@@ -3,16 +3,16 @@ import "./App.css";
 // Router and Pages
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import Page2 from "./pages/Page2";
-import Page3 from "./pages/Page3";
-import Page1 from "./pages/Page1";
+import Research from "./pages/Research";
+import Teams from "./pages/Teams";
+import Topics from "./pages/Topics";
 
+import Cohort1 from "./pages/Cohort1";
+import Cohort1Schedule from "./pages/Cohort1Schedule";
+import Cohort2 from "./pages/Cohort2";
+import Cohort2Schedule from "./pages/Cohort2Schedule";
 import Cohort3 from "./pages/Cohort3";
 import Cohort3Schedule from "./pages/Cohort3Schedule";
-import Cohort4 from "./pages/Cohort4";
-import Cohort4Schedule from "./pages/Cohort4Schedule";
-import Cohort5 from "./pages/Cohort5";
-import Cohort5Schedule from "./pages/Cohort5Schedule";
 
 function App() {
     return (
@@ -20,10 +20,22 @@ function App() {
             <Routes>
                 {/* Define the routes for each page */}
                 <Route path="/" element={<Home />} />
-                <Route path="/page1" element={<Page1 />} />
-                <Route path="/page2" element={<Page2 />} />
-                <Route path="/page3" element={<Page3 />} />
+                <Route path="/research" element={<Research />} />
+                <Route path="/teams" element={<Teams />} />
+                <Route path="/topics" element={<Topics />} />
 
+                
+                <Route path="/cohort1" element={<Cohort1 />} />
+                <Route
+                    path="/cohort1-schedule"
+                    element={<Cohort1Schedule />}
+                />
+
+                <Route path="/cohort2" element={<Cohort2 />} />
+                <Route
+                    path="/cohort2-schedule"
+                    element={<Cohort2Schedule />}
+                />
 
                 <Route path="/cohort3" element={<Cohort3 />} />
                 <Route
@@ -31,17 +43,17 @@ function App() {
                     element={<Cohort3Schedule />}
                 />
 
-                <Route path="/cohort4" element={<Cohort4 />} />
-                <Route 
-                    path="/cohort4-schedule" 
-                    element={<Cohort4Schedule />} 
-                />
 
-                <Route path="/cohort5" element={<Cohort5 />} />
+                {/* UPDATE THIS */}
+                {/* UPDATE THIS */}
+                {/* <Route path="/cohort6" element={<Cohort6 />} />
                 <Route 
-                    path="/cohort5-schedule" 
-                    element={<Cohort5Schedule />} 
-                />
+                    path="/cohort6-schedule" 
+                    element={<Cohort6Schedule />} 
+                /> */}
+                {/* UPDATE THIS */}
+                {/* UPDATE THIS */}
+
 
             </Routes>
         </Router>

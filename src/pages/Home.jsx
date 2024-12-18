@@ -20,67 +20,74 @@ export default function Home() {
             <Header />
 
             < GreenArticle >
-                <p>To get real measurable UX results, we need to focus on our customers’ and users’ real needs.</p>
-                <p>Everything we do and measure should be outcome-based. No more measuring for measuring sake. </p>
+                <p>Strategic UX Research is changing organizations. Get ready to change yours, too.
+                </p>
+                <p>Lead your organization to become the foremost expert in your users and customers.
+                </p>
             </GreenArticle >
+
             <TestComponent >
                 <div className="article-content">
-                    <h2>Advanced Strategic UX Research –</h2>
-                    <h2>Measuring your users’ actual experience.</h2>
-                    <p><b>Outcome-Driven UX Metrics</b> is our radical approach to measuring and reporting UX metrics with your organization. You’ll directly measure how every new release of your products and services improves your customers’ and users’ lives.</p>
-                    <p>When you share Outcome-driven UX Metrics, you’ll…
-                    </p>
-                    <ul>
-                        <li>Increase the strategic contributions your UX team delivers to your organization.
-                        </li>
-                        <li>Raise the perception of UX’s value in the eyes of your executives and senior stakeholders.
-                        </li>
-                        <li>Inspire your peers in development and product management to make UX a priority in their work.</li>
-                        <li>Guide your organization to deliver more human-centered products and services.</li>
-                    </ul>
-                    <p> The Outcome-driven UX Metrics framework is not based on the magical thinking you find in conventional UX metrics approaches. Conventional metrics make your work harder because there’s no direct connection to the effort you put in.
-                    </p>
+                    <h2>Strategic UX Research is the Next Big Thing.
+                    </h2>
+                        <p>Get ready to connect your organization’s long-term direction and strategy directly to your customers’ and users’ deepest needs.
+                        </p>
+                        <p>Awaken your top executives to the value that great user experiences bring to your organization and the people you serve.
+                        </p>
+                        <p>Give your senior stakeholders and executives a detailed, shared understanding of your customers’ and users’ experiences. They’ll use your Strategic UX Research to set the business’ direction, determine where to invest, and focus the entire organization’s long-term and short-term objectives on prioritizing improved experiences.
+                        </p>
+                        <p>Your new Strategic UX Research efforts will change the relationships your senior executives and stakeholders will have with everyone who will benefit from your products and services. It’s a profound transformation that restructures how your organization makes essential decisions.
+                        </p>
+                    
+                    <h3>How Strategic UX Research is different from what’s practiced today.
+                    </h3>
+                        <p>Most teams today practice Tactical UX Research. Their work rarely affects more than a specific feature or product.
+                        </p>
+                        <p>Their research results only describe immediate recommendations or changes that will improve the product slightly.
+                        </p>
+                        <p>Tactical UX Research rarely improves our understanding of users or what they need in the long term. This understanding never reaches the organization’s upper levels. The most critical decisions, like budgets, staffing, and priorities, don’t consider the users’ experiences. Yet these decisions affect whether the team will have what it needs to deliver a great user experience.
+                        </p>
+                        <p>Conversely, Strategic UX Research is about attaining a deeper understanding of all the different users and their individual experiences. Everyone, including the executive team, learns more about what makes an excellent experience for users, employees, and customers and how to improve their current experiences.
+                        </p>
+                        <p>These experiences go beyond using the organization’s products or services. They include what happens before, during, and after someone has interacted with the product. Strategic UX Research uncovers the entirety of people's experiences.
+                        </p>
+                        <p>Research teams orchestrate deep-hanging-out sessions with customers and users. They collect observations and insights that show what a day in the life of users could be like. They combine different experiences with the product or service across the user’s lifetime and connect this all together to show a detailed journey.
+                        </p>
 
-                    <p>With conventional metrics, you have to cross your fingers and hope that your hard work will improve your conversion rates, Net Promoter Scores, or revenue and retention metrics. Those metrics make it hard when someone asks how you know your work made things better. With conventional metrics, you never really know.
-                    </p>
-
-                    <p>Outcome-driven UX Metrics are different. They measure directly how you and your team have improved your customers’ and users’ lives.
-                    </p>
-                    <p><i>”What gets measured, gets done.”</i> With Outcome-driven UX Metrics, UX gets done well. Your executives and senior stakeholders immediately see the value improved UX brings your customers and the increased benefits your users receive.
-                    </p>
-                    <p>Outcome-driven UX Metrics make UX distinctively visible.</p>
-
-                    <h3>Showcase precisely where you’re delivering value.</h3>
-
-                    <p>You’ll start with what we call a <i>UX Outcome.</i> Your UX outcome answers a simple question: <i>How will you improve your users’ and customers’ lives?</i> Ultimately, you’ll build your metrics around this question. </p>
-
-                    <p> Using your UX outcome, you’ll create three categories of metrics:</p>
-                    <ul>
-                        <li><i>UX Success metrics:</i> Report the precise moment you’ve improved your customers’ and users' lives.</li>
-                        <li><i>UX Progress metrics:</i> Achieve key results as your team progresses against your planned milestones.</li>
-                        <li><i>Problem-value metrics:</i> Pinpoint and aggregate your organization’s ongoing costs of poor UX to promote UX’s return on investment. </li>
-                    </ul>
-                    <p>Each of these metrics categories helps you tell the story of your UX journey. The story of where you’re going, where you started, and how far along you are.</p>
-                    <p>Outcome-driven UX Metrics are simple in their concepts. Once you acquire the fundamentals, you’re ready to implement your own. </p>
-                    <p>And once you implement your own Outcome-Driven UX Metrics, you've unleashed a superpower. You'll spark exceptional outcomes with your UX metrics as a foundation.</p>
-                    <p><b>You need Outcome-driven UX metrics to improve how your organization values UX.</b></p>
+                    <h3>Discover the basic principles of Strategic UX Research:
+                    </h3>
+                        <ul>
+                            <li>Build deep expertise about users and their needs.
+                            </li>
+                            <li>Focus the organization on improving the daily lives of customers, users, and employees.
+                            </li>
+                            <li>Combine UX and CX practices to collect knowledge from every touch point.
+                            </li>
+                            <li>Study holistic experiences instead of small slices of a product’s features.
+                            </li>
+                            <li>Feed the research results into every outcome and decision.
+                            </li>
+                        </ul>
+                        <p>Strategic UX research transforms your organization into an industry leader who delivers, hands down, the most innovative experiences.
+                        </p>
+                        <p>Your senior executives will champion even more research because they now see how the entire organization treasures it. They'll no longer stop your UX research efforts from being undervalued and the first to be cut.
+                        </p>
+                        <p><strong>Shape the way your organization makes strategic decisions. Deliver better-designed products and services. Our Advanced Strategic UX Research essentials will guide you every step of the way.
+                        </strong></p>
                 </div>
                 <Modal />
             </TestComponent>
 
-            <Testimonials>
-                <p>The content of this course has deeply impacted my career (and love for experience design). Your framing of UX outcomes and metrics particularly filled a previously daunting gap in my practice. I find myself constantly returning to anecdotes, positions, and points of view that I came across with Jared Spool.</p>
-                <p>You’re hands down the biggest influence on my own career.</p>
-                <span><b>- UX Researcher and Designer </b></span>
-            </Testimonials>
+            <Testimonials/>
             <CourseSchedule />
             < HorizontalCohortSelector />
             <JaredSpool />
 
             <TestComponent>
                 <div className="pricing-content">
-                    <h2>Sign up for Outcome-Driven UX Metrics Course</h2>
-                    <p>Ready to dive in deep and absorb everything there is to know about Outcome-driven UX Metrics?</p>
+                    <h2>Sign up for the Adv. Strategic UX Research Course</h2>
+                    <p>Ready to dive in deep and absorb everything there is to know about Advanced Strategic UX Research?
+                    </p>
                     <ul>
                         <li>Individual price per person <br /> $499</li>
                         <li>Team price per person ($100 off each person)<br /> $399</li>
@@ -106,10 +113,11 @@ export default function Home() {
                 <VideoSeries>
                     <div>
                         <h3>Can’t attend the course live? <br />
-                            Purchase the Recorded Outcome-Driven UX Metrics Video Series.</h3>
-                        <p>We know that not everyone has the resources to join us live. That’s ok. You can purchase the UX Metrics to Drive Your Organization's video series.
+                        Purchase the Recorded Adv. Strategic UX Research Video Series.</h3>
+                        <p>We know that not everyone has the resources to join us live. That’s ok. You can purchase the Adv. Strategic UX Research video series.
                         </p>
-                        <p>You can watch all nine sessions of the Outcome-driven UX Metrics Course broken up into two parts in our UX Strategy Essentials Library.</p>
+                        <p>You can watch all eight sessions of the Adv. Strategic UX Research Course broken up into two parts in our UX Strategy Essentials Library.
+                        </p>
                         <span><b>What’s included for $227:</b></span>
                         <ul>
                             <li>The lectures and notes from all eight topics.</li>
@@ -120,7 +128,7 @@ export default function Home() {
                     </div>
                     <PurchaseBox
                         src="./images/laptopResearch.png"
-                        text="Outcome-Driven UX Metrics Video Series"
+                        text="Adv. Strategic UX Research Video Series"
                         price="$227"
                         buttonText="PURCHASE VIDEO SERIES"
                     />

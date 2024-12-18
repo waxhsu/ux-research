@@ -6,21 +6,22 @@ import Header from "../components/Header/Header";
 import GreenArticle from "../components/GreenArticle/GreenArticle";
 import Footer from "../components/Footer/Footer";
 import TestComponent from "../components/TestComponent/TestComponent";
-import Cohort5Calendar from "../components/CalendarV2/Cohort5Calendar";
+import Cohort1Calendar from "../components/CalendarV2/Cohort1Calendar";
 import HorizontalCohortSelector from "../components/HorizontalCohortSelector/HorizontalCohortSelector";
 import Navbar from "../components/Navbar/Navbar";
 
-export default function Cohort3Schedule() {
+export default function Cohort2Schedule() {
     return (
-        <div id="Cohort3Schedule">
+        <div id="Cohort2Schedule">
             <Navbar />
             <Header />
             <GreenArticle >
-                <h1>February Schedule</h1>
+                <h1>MONTH Schedule</h1>
             </GreenArticle >
-            <Cohort5Calendar />
+            <Cohort1Calendar />
             <TestComponent />
             <HorizontalCohortSelector />
+
             < Footer />
         </div >
 

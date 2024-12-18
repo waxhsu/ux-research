@@ -61,7 +61,6 @@
 
 .hamburger-image {
   width: 7em;
-
 }
 
 /* Styling for the Hero section */
@@ -70,17 +69,16 @@
 }
 
 .hero > .programName {
-  /* max-width: 10em; */
-  max-height: 10em;
+  max-height: 9em;
   height: auto;
-  margin: 0 1em 0 0;
+  margin: 0 2em 0 0;
 }
 
 .hero > .jared {
   max-width: 10em;
   max-height: 10em;
   height: auto;
-  margin: 0 1em 0 0;
+  margin: 0 2em 0 0;
 }
 
 .hero-paragraphs {
@@ -103,7 +101,7 @@ h1 {
 
 .online-course {
   font-size: 1.2em;
-  margin-top: 1em;
+  margin-top: 0;
 }
 
 

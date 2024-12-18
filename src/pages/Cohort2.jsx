@@ -10,13 +10,13 @@ import TestComponent from "../components/TestComponent/TestComponent";
 import SpiffyCheckout from "../components/SpiffyCheckout/SpiffyCheckout";
 import Navbar from "../components/Navbar/Navbar";
 
-export default function Cohort5() {
+export default function Cohort2() {
     return (
-        <div id="Cohort5">
+        <div id="Cohort2">
             <Navbar />
             <Header />
             < GreenArticle >
-                <h1>Join February Cohort</h1>
+                <h1>Join November Cohort</h1>
             </GreenArticle >
             <TestComponent >
                 <div className="width-500">
@@ -26,7 +26,7 @@ export default function Cohort5() {
                 </div>
                 <div className="test-component-content-container">
                     <img src="./images/11.png" alt="Outcome Driven UX Metrics" />
-                    <button className="btn btn-shadow test-component-purchase button cohortSelector-button-link"> <Link to="/cohort5-schedule" className="cohortSelector-button-link">February Schedule</Link></button>
+                    <button className="btn btn-shadow test-component-purchase button cohortSelector-button-link"> <Link to="/cohort2-schedule" className="cohortSelector-button-link">November Schedule</Link></button>
                 </div>
             </TestComponent >
             <TestComponent>
@@ -49,11 +49,9 @@ export default function Cohort5() {
                 </div>
             </TestComponent >
 
-            <SpiffyCheckout>
-            <h2>Join the February UX Metrics Cohort</h2>
-                <spiffy-checkout 
-                    url="https://centercentre.spiffy.co/checkout/ux-metrics-cohort-5"
-                ></spiffy-checkout>
+            <SpiffyCheckout >
+            <h2>Join the November UX Metrics Cohort</h2>
+                <spiffy-checkout url="https://centercentre.spiffy.co/checkout/ux-metrics-nov" ></spiffy-checkout>
             </SpiffyCheckout>
 
 
