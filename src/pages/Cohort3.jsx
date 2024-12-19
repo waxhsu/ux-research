@@ -66,7 +66,7 @@ export default function Cohort3() {
             <SpiffyCheckout >
             <h2>Join the March UX Research Cohort</h2>
                 <spiffy-checkout url=
-                "asdf" ></spiffy-checkout>
+                "https://centercentre.spiffy.co/checkout/advanced-strategic-ux-research-cohort3" ></spiffy-checkout>
             </SpiffyCheckout>
 
 
