@@ -78,7 +78,12 @@ export default function Home() {
                 <Modal />
             </TestComponent>
 
-            <Testimonials/>
+            <Testimonials>
+                <p>“Each day’s takeaways are built upon the next to thread the story and explain a mature way of looking at human-centric design and user experience to the product team. I connected with new friends and members, which was an unexpected bonus!”
+                </p>
+                <strong>T.H., Design Consultant:
+                </strong>
+            </Testimonials>
             <CourseSchedule />
             < HorizontalCohortSelector />
             <JaredSpool />

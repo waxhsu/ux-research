@@ -236,8 +236,8 @@ const TABLE_ID_COHORT3 = process.env.REACT_APP_TABLE_ID_COHORT3;
 
 export const COHORT3_DATE_RANGE = [
   {
-    start: `Dec 10`,
-    end: `Jan 17`,
+    start: `Mar 10`,
+    end: `Apr 17`,
   }
 ]
 

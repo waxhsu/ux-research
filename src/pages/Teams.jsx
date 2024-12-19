@@ -22,40 +22,16 @@ export default function Teams() {
             <GreenArticle>
                 <h1>Sign Up Your Team</h1>
             </GreenArticle>
-            {/* <TestComponent>
-                <div className="article-teams">
-                    <h2>UX Metrics to drive your entire organization.</h2>
-                    <p>Focus your team and executives on improving your customers’ lives through visible outcomes your entire team and stakeholders can measure and see.</p>
-                    <p>Get much more out of implementing your Outcome-driven UX Metrics by involving your larger team.</p>
-                    <ul className="article-team-list">
-                        <li className="article-team-list-item">
-                            <img src="./images/bubble.png" alt="speech bubble" /> For Less than 8 Team Members: Join a Public Course
-                        </li>
-                        <li className="article-team-list-item">
-                            <img src="./images/bubble-star.png" alt="speech bubble with a star" /> For More than 8 Team Members: Plan a Private Workshop
-                        </li>
-                    </ul>
-                </div>
-                <div className="team-testimonial">
-                    <p>Wow, our team’s time with Jared had been a whirlwind of learning and development!
-                    </p>
-                    <p>I moved into a new role, building a team to bring valuable users through software products and workflows that help them achieve their goals and desired outcomes.
-                    </p>
-                    <p>Jared has helped me tremendously to articulate how we can make the life of the customer better and how to be effective in collaborating with other functional leaders in a UX role.
-                    </p>
-                    <span><b>- Senior Product Leader</b></span>
-
-                </div>
-            </TestComponent> */}
-
-
 
             {/* current teams component */}
             <TestComponent>
                 <div className="article-teams">
-                    <h2>UX Metrics to drive your entire organization.</h2>
-                    <p>Focus your team and executives on improving your customers’ lives through visible outcomes your entire team and stakeholders can measure and see.</p>
-                    <p>Get much more out of implementing your Outcome-driven UX Metrics by involving your larger team.</p>
+                    <h2>Strategic UX Research to change your organization.
+                    </h2>
+                    <p>Change your senior executives’ and stakeholders’ relationships with everyone who benefits from your products and services. Strategic UX Research restructures how your organization makes essential decisions.
+                    </p>
+                    <p>Get much more out of implementing your Strategic UX Research by involving your larger team.
+                    </p>
                     <ul className="article-team-list">
                         <li className="article-team-list-item">
                             <img src="./images/bubble.png" alt="speech bubble" /> For Less than 8 Team Members: Join a Public Course
@@ -66,25 +42,27 @@ export default function Teams() {
                     </ul>
                 </div>
             </TestComponent>
-            <Testimonials>
-                <p>Wow, our team’s time with Jared had been a whirlwind of learning and development!
+            {/* <Testimonials /> */}
+
+            <Testimonials >
+                <p>“This session came at a perfect time. My team and I looked at the course through the lens of our org’s current state and will leverage the framework to leapfrog ahead together (on behalf of our customers, of course).”
                 </p>
-                <p>I moved into a new role, building a team to bring valuable users through software products and workflows that help them achieve their goals and desired outcomes.
-                </p>
-                <p>Jared has helped me tremendously to articulate how we can make the life of the customer better and how to be effective in collaborating with other functional leaders in a UX role.
-                </p>
-                <span><b>- Senior Product Leader</b></span>
+                <strong>C.B., Manager, UX Researcher</strong>
             </Testimonials>
+
+
             <TestComponent>
                 <div>
                     <h3>For Less than 8 Team Members: Join a Public Course</h3>
-                    <p>As a team, you’ll develop your UX Metrics plan as a team . and alongside a small group of teams facing similar challenges. Together, you’ll start drafting the blueprints for what change will look like across your organization. You’ll come away with your own custom approach to UX Metrics that your entire team can use.</p>
+                    <p>As a team, you’ll develop your UX Research strategy as a team and alongside a small group of teams facing similar challenges. Together, you’ll start drafting the blueprints for what change will look like across your organization. You’ll come away with your own custom approach to UX Metrics that your entire team can use.
+                    </p>
                     <p>When you sign up for a public course cohort:
                     </p>
                     <ul>
                         <li>Sign up each team member at the Team Member Price and save $100 off each registration.
                         </li>
-                        <li>Each team member purchases their registration separately or contact us for an invoice.</li>
+                        <li>Each team member purchases their registration separately or contact us for an invoice.
+                        </li>
                     </ul>
                     <p>Pick the next cohort that works best for your team members.
                         If you need to move your team to another cohort date after your team signs up, no worries; we can take care of moving your team.
@@ -127,11 +105,11 @@ export default function Teams() {
                 </div>
             </TestComponent>
             <VideoSeries>
-                <div className="width-test-team pl-2">
-                    <p className="">If you think a tailored, private Outcome-Driven UX Metrics course would be critical for your entire team, contact Jared to discuss the benefits and costs.
+                <div className="width-test-team pl-2 width-50">
+                    <p>If you think a tailored, private Adv. Strategic UX Research course would be critical for your entire team, contact Jared to discuss the benefits and costs.
                     </p>
                 </div>
-                <div className="">
+                <div>
                     <h3>Talk to Jared Over a Call</h3>
                     <button className=" btn btn-shadow green-team-button"><a className="purchase-box-button-white" href="https://jmspool-mentoring.youcanbook.me/">Contact Us and Talk to Jared</a></button>
                 </div>

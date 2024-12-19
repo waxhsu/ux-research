@@ -21,9 +21,16 @@
 
 }
 
+
+
 .width-50 {
-    width: 70em;
-    padding-left: 2em;
+    width: 50%;
+    padding-right: 2em;
+}
+
+.width-40 {
+    width: 40%;
+    padding-right: 2em;
 }
 
 .test-component-content-container {
@@ -76,7 +83,7 @@
         align-items: center;
     }
 
-    .width-50 {
+    .width-50, .width-40 {
         width: 100%;
         padding-left: 0em;
     }

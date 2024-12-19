@@ -2,15 +2,13 @@ import React from "react";
 import './Testimonials.css';
 
 
-export default function Testimonials({ }) {
+export default function Testimonials({ children }) {
     return (
         <section className="testimonials-container">
             <div className="testimonials-content">
                 <div className="testimonials-test">
                     <img src="images/star.png" alt="star" className="testimonials-star" />
-                    <p>“Each day’s takeaways are built upon the next to thread the story and explain a mature way of looking at human-centric design and user experience to the product team. I connected with new friends and members, which was an unexpected bonus!”
-                    </p>
-                <span><strong>T.H., Design Consultant</strong></span>
+                    {children}
                 </div>
             </div>
 
