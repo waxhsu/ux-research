@@ -1,7 +1,7 @@
 import "./App.css";
 
 // Router and Pages
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Research from "./pages/Research";
 import Teams from "./pages/Teams";
