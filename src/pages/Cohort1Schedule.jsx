@@ -10,9 +10,9 @@ import Cohort1Calendar from "../components/CalendarV2/Cohort1Calendar";
 import HorizontalCohortSelector from "../components/HorizontalCohortSelector/HorizontalCohortSelector";
 import Navbar from "../components/Navbar/Navbar";
 
-export default function Cohort2Schedule() {
+export default function Cohort1Schedule() {
     return (
-        <div id="Cohort2Schedule">
+        <div id="Cohort1Schedule">
             <Navbar />
             <Header />
             <GreenArticle >
