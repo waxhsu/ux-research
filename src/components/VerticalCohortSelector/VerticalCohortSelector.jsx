@@ -38,13 +38,13 @@ export default function VerticalCohortSelector() {
 
 
                 {/* THIRD COHORT START */}
-                <div className="cohort-1">
+                {/* <div className="cohort-1">
                     <div className="cohort-paragraphs">
                     <p><b>{COHORT3_DATE_RANGE[0].start} - {COHORT3_DATE_RANGE[0].end}</b></p>
                         <Link to="/cohort3-schedule">See Schedule</Link>
                     </div>
                     <button className="btn-shadow">  <Link to="/cohort3" className="cohortSelector-button-link">Join Cohort</Link></button>
-                </div>
+                </div> */}
                 {/* THIRD COHORT END */}
 
 

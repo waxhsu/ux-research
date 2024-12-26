@@ -14,7 +14,7 @@ import HorizontalCohortSelector from "../components/HorizontalCohortSelector/Hor
 
 import Footer from "../components/Footer/Footer";
 
-export default function Outcomes() {
+export default function Research() {
 
 
     // State and hooks to change the h1 on resize
@@ -40,7 +40,7 @@ export default function Outcomes() {
             <Navbar />
             <Header />
             < GreenArticle >
-                <h1>{isMobile ? "Why UX Outcomes?" : "Why use Outcome-driven UX Metrics?"}</h1>
+                <h1>{isMobile ? "Why UX Research?" : "Why use Adv. Strategic UX Research?"}</h1>
             </GreenArticle >
             <TestComponent >
                 <div className="test-component-spacing">

@@ -9,7 +9,7 @@ export default function Pricing({ children }) {
             <section className="pricing">
                 <div className="pricing-content">
                     <div className="pricing-content">
-                        <h2>Sign up for Outcome-Driven UX Metrics Course</h2>
+                        <h2>Sign up for Advanced Strategic UX Research Course</h2>
                         <p>Ready to dive in deep and absorb everything there is to know about Outcome-driven UX Metrics?</p>
                         <ul>
                             <li>Individual price per person <br /> $499</li>
