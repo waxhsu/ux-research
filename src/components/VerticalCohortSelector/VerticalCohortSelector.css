@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     border-radius: 1em;
-    padding: 1em;
-    max-height: 35em;
+    padding: 1em 1em 2em 1em;
+    max-height: fit-content;
     font-weight: 600;
     box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.25);
     width: auto;
