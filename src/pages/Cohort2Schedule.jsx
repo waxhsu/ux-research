@@ -16,7 +16,7 @@ export default function Cohort2Schedule() {
             <Navbar />
             <Header />
             <GreenArticle >
-                <h1>MONTH Schedule</h1>
+                <h1>February Schedule</h1>
             </GreenArticle >
 
             <TestComponent>
