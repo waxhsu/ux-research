@@ -62,8 +62,8 @@ const TABLE_ID_COHORT6 = process.env.REACT_APP_TABLE_ID_COHORT6;
 
 export const COHORT6_DATE_RANGE = [
   {
-    start: `Mar 3`,
-    end: `Mar 26`,
+    start: `Mon ##`,
+    end: `Mon ##`,
   }
 ]
 
@@ -120,8 +120,8 @@ const TABLE_ID_COHORT5 = process.env.REACT_APP_TABLE_ID_COHORT5;
 
 export const COHORT5_DATE_RANGE = [
   {
-    start: `Feb 18`,
-    end: `Mar 13`,
+    start: `Mon ##`,
+    end: `Mon ##`,
   }
 ]
 
@@ -177,8 +177,8 @@ const TABLE_ID_COHORT4 = process.env.REACT_APP_TABLE_ID_COHORT4;
 
 export const COHORT4_DATE_RANGE = [
   {
-    start: `Jan 13`,
-    end: `Feb 5`,
+    start: `Mon ##`,
+    end: `Mon ##`,
   }
 ]
 
@@ -236,8 +236,8 @@ const TABLE_ID_COHORT3 = process.env.REACT_APP_TABLE_ID_COHORT3;
 
 export const COHORT3_DATE_RANGE = [
   {
-    start: `Mar 10`,
-    end: `Apr 17`,
+    start: `Mon ##`,
+    end: `Mon ##`,
   }
 ]
 
@@ -296,8 +296,8 @@ const TABLE_ID_COHORT2 = process.env.REACT_APP_TABLE_ID_COHORT2;
 
 export const COHORT2_DATE_RANGE = [
   {
-    start: `Dec 10`,
-    end: `Jan 17`,
+    start: `Mon ##`,
+    end: `Mon ##`,
   }
 ]
 
@@ -354,8 +354,8 @@ const TABLE_ID_COHORT1 = process.env.REACT_APP_TABLE_ID_COHORT1;
 
 export const COHORT1_DATE_RANGE = [
   {
-    start: `Nov 18`,
-    end: `Dec 19`,
+    start: `Jan 28`,
+    end: `Feb 20`,
   }
 ]
 
