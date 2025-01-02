@@ -8,7 +8,6 @@ import Footer from "../components/Footer/Footer";
 import LeftContent from "../components/LeftContent/LeftContent";
 import RightContent from "../components/RightContent/RightContent";
 import TestComponent from "../components/TestComponent/TestComponent";
-import { Hero } from "../components/Header/Header";
 import VerticalCohortSelector from "../components/VerticalCohortSelector/VerticalCohortSelector";
 import Navbar from "../components/Navbar/Navbar";
 import { fetchCohort1 } from "../components/CalendarV2/CalendarDataV2"; //the text is the same for all cohorts
@@ -18,32 +17,8 @@ export default function Topics() {
 
     useEffect(() => {
         const loadCohortData = async () => {
-            //TEST DATA
-            const sampleCohortTopics = [
-                {
-                    week: 1,
-                    rich1: "This is the content for week 1, Topic 1.",
-                    rich2: "This is the content for week 1, Topic 2.",
-                },
-                {
-                    week: 2,
-                    rich1: "This is the content for week 2, Topic 1.",
-                    rich2: "This is the content for week 2, Topic 2.",
-                },
-                {
-                    week: 3,
-                    rich1: "This is the content for week 3, Topic 1.",
-                    rich2: "This is the content for week 3, Topic 2.",
-                },
-                {
-                    week: 4,
-                    rich1: "This is the content for week 4, Topic 1.",
-                    rich2: "This is the content for week 4, Topic 2.",
-                },
-            ];
-
-            // const sampleCohortTopics = await fetchCohort1();
-            setCohortTopics(sampleCohortTopics);
+            const courseCohortTopics = await fetchCohort1();
+            setCohortTopics(courseCohortTopics);
         };
         loadCohortData();
     }, []);
@@ -150,7 +125,6 @@ export default function Topics() {
                         eight influential topics. Jared Spool will walk with you
                         every step of the way.
                     </p>
-                    {/* <Hero /> */}
                 </div>
                 <VerticalCohortSelector />
             </TestComponent>
