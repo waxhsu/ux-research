@@ -1,6 +1,5 @@
 import React from "react";
 
-
 // components
 import Header from "../components/Header/Header";
 import GreenArticle from "../components/GreenArticle/GreenArticle";
@@ -15,28 +14,35 @@ export default function Cohort3Schedule() {
         <div id="Cohort3Schedule">
             <Navbar />
             <Header />
-            <GreenArticle >
+            <GreenArticle>
                 <h1>March Schedule</h1>
-            </GreenArticle >
+            </GreenArticle>
             <TestComponent>
-            <div>
-                <h2>Develop your own organization’s advanced UX Research strategy. 
-                </h2>
-                <p>Join us to complete your journey with metrics that will 
-                    <strong>drive your organization to deliver better-designed products and services.
-                </strong></p>
-                <p>You won’t make up imaginary, over-simplified metrics for fake companies and products in this intensive. Instead, you (and your team, if you bring them along) will roll up your sleeves and identify the critical metrics for your products and services.
-                </p>
-            </div>
+                <div>
+                    <h2>
+                        Develop your own organization’s advanced UX Research
+                        strategy.
+                    </h2>
+                    <p>
+                        Join us to complete your journey with metrics that will
+                        <strong>
+                            drive your organization to deliver better-designed
+                            products and services.
+                        </strong>
+                    </p>
+                    <p>
+                        You won’t make up imaginary, over-simplified metrics for
+                        fake companies and products in this intensive. Instead,
+                        you (and your team, if you bring them along) will roll
+                        up your sleeves and identify the critical metrics for
+                        your products and services.
+                    </p>
+                </div>
             </TestComponent>
             <Cohort3Calendar />
             <TestComponent />
             <HorizontalCohortSelector />
-            < Footer />
-        </div >
-
-
-    )
-
-
+            <Footer />
+        </div>
+    );
 }
