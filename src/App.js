@@ -11,8 +11,6 @@ import Cohort1 from "./pages/Cohort1";
 import Cohort1Schedule from "./pages/Cohort1Schedule";
 import Cohort2 from "./pages/Cohort2";
 import Cohort2Schedule from "./pages/Cohort2Schedule";
-import Cohort3 from "./pages/Cohort3";
-import Cohort3Schedule from "./pages/Cohort3Schedule";
 
 function App() {
     return (
@@ -37,11 +35,11 @@ function App() {
                     element={<Cohort2Schedule />}
                 />
 
-                <Route path="/cohort3" element={<Cohort3 />} />
+                {/* <Route path="/cohort3" element={<Cohort3 />} />
                 <Route
                     path="/cohort3-schedule"
                     element={<Cohort3Schedule />}
-                />
+                /> */}
 
 
                 {/* UPDATE THIS */}

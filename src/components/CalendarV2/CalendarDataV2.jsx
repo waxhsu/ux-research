@@ -110,7 +110,7 @@ const TABLE_ID_COHORT2 = process.env.REACT_APP_TABLE_ID_COHORT2;
 export const COHORT2_DATE_RANGE = [
     {
         start: `Mon ##`,
-        end: `Mon ##`,
+        end: `lol`,
     },
 ];
 
@@ -122,6 +122,8 @@ export const fetchCohort2 = async () => {
         const response = await axios.get(url, { headers });
         return response.data.records.map((record) => ({
             week: record.fields.Week,
+            start: record.fields.CohortOutput1,
+            end: record.fields.CohortOutput2,
 
             name1: record.fields.Name1,
             rich1: record.fields.RichText1,
@@ -173,6 +175,8 @@ export const fetchCohort1 = async () => {
         console.log(response.data.records);
         return response.data.records.map((record) => ({
             week: record.fields.Week,
+            start: record.fields.CohortOutput1,
+            end: record.fields.CohortOutput2,
 
             name1: record.fields.Name1,
             rich1: record.fields.RichText1,

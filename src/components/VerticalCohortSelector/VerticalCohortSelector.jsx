@@ -1,13 +1,31 @@
-import React from "react"
+import React, { useState, useEffect } from 'react';
 import "./VerticalCohortSelector.css"
 import { Link } from "react-router-dom"
 
-import { COHORT1_DATE_RANGE } from "../CalendarV2/CalendarDataV2"
-import { COHORT2_DATE_RANGE } from "../CalendarV2/CalendarDataV2"
-import { COHORT3_DATE_RANGE } from "../CalendarV2/CalendarDataV2"
+import { fetchCohort1 } from "../CalendarV2/CalendarDataV2"
+import { fetchCohort2 } from "../CalendarV2/CalendarDataV2"
 
 
 export default function VerticalCohortSelector() {
+
+    const [events1, setEvents1] = useState([]);
+    const [events2, setEvents2] = useState([]);
+
+
+    // IF YOU ARE NOT MAPPING, YOU NEED A NULL OPERATOR OTHERWISE THE PAGE CRASHES
+    useEffect(() => {
+        const loadEvents = async () => {
+          const fetchedData1 = await fetchCohort1(); // <--------- UPDATE
+          const fetchedData2 = await fetchCohort2(); // <--------- UPDATE
+          // Sort events by week number in ascending order
+          const sortedEvents1 = fetchedData1.sort((a, b) => a.week - b.week);
+          const sortedEvents2 = fetchedData2.sort((a, b) => a.week - b.week);
+          setEvents1(sortedEvents1);
+          setEvents2(sortedEvents2);
+        };
+        loadEvents();
+      }, []);
+
     return (
 
         <div className="verticalCohortSelector">
@@ -18,7 +36,7 @@ export default function VerticalCohortSelector() {
                 {/* FIRST COHORT START */}
                 <div className="cohort-1">
                     <div className="cohort-paragraphs">
-                        <p><b>{COHORT1_DATE_RANGE[0].start} - {COHORT1_DATE_RANGE[0].end}</b></p>
+                    <p><b>{events1[0]?.start} – {events1[3]?.end}</b></p>
                         <Link to="/cohort1-schedule">See Schedule</Link>
                     </div>
                     <button className="btn-shadow">  <Link to="/cohort1" className="cohortSelector-button-link">Join Cohort</Link></button>
@@ -29,7 +47,7 @@ export default function VerticalCohortSelector() {
                 {/* SECOND COHORT START */}
                 <div className="cohort-1">
                     <div className="cohort-paragraphs">
-                    <p><b>{COHORT2_DATE_RANGE[0].start} - {COHORT2_DATE_RANGE[0].end}</b></p>
+                    <p><b>{events2[0]?.start} – {events2[3]?.end}</b></p>
                         <Link to="/cohort2-schedule">See Schedule</Link>
                     </div>
                     <button className="btn-shadow">  <Link to="/cohort2" className="cohortSelector-button-link">Join Cohort</Link></button>
@@ -38,13 +56,11 @@ export default function VerticalCohortSelector() {
 
 
                 {/* THIRD COHORT START */}
-                {/* <div className="cohort-1">
-                    <div className="cohort-paragraphs">
-                    <p><b>{COHORT3_DATE_RANGE[0].start} - {COHORT3_DATE_RANGE[0].end}</b></p>
-                        <Link to="/cohort3-schedule">See Schedule</Link>
-                    </div>
-                    <button className="btn-shadow">  <Link to="/cohort3" className="cohortSelector-button-link">Join Cohort</Link></button>
-                </div> */}
+
+
+
+
+
                 {/* THIRD COHORT END */}
 
 

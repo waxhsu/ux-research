@@ -46,7 +46,7 @@ export default function CalendarV2() {
             <div className='scheduleTitle'>
                 <div className='courseSchedule-container'>
                     <h1>Course Schedule</h1>
-                    <h2>Cohort: {COHORT1_DATE_RANGE[0].start} - {COHORT1_DATE_RANGE[0].end}</h2>
+                    <h2>Cohort: {events[0]?.start} – {events[3]?.end}</h2>
                 </div>
                 
 

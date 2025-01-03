@@ -44,22 +44,25 @@ export default function Research() {
             </GreenArticle >
             <TestComponent >
                 <div className="test-component-spacing">
-                    <h2>The most effective metrics tell compelling stories.</h2>
-                    <p>Great metrics describe how you and your team are increasing the value of your products and services for customers, helping your business achieve its top priorities, and making the world better in the process.</p>
-                    <p>For UX work, you want metrics showing how a great user experience has increased the value your customers and users receive. You want to show how investing in great UX has paid off by hitting business targets with great returns. And you want your metrics to describe how you’re improving the lives of your customers and users.
+                    <h2>The right research makes your team more strategic, influential, and innovative.</h2>
+                    <p>There’s a technical term for the absence of UX research: guessing.</p>
+                    <p>When stakeholders and teams lack the knowledge they need to make critical decisions, they guess. They might call it a hunch, bet, experiment, or even an educated guess. It’s still guessing.
                     </p>
-                    <h2>Not every metric helps you. Some even harm your efforts.
-                    </h2>
-                    <p>Unfortunately, you can’t do that with just any metric. The metrics that UX folk commonly use generally don’t tell attention-grabbing stories.
+                    <p>Guessing is expensive and time-consuming for your product team. It forces near-endless debates about the “correct” approach. You have to validate your designs, or worse, just build something and put it into the world only to learn that it’s not what users and customers want or need. When you guess wrong (which is too often the case), all that work is a waste, and you learn very little about what would’ve worked.
+                    </p>
+                    <h3>Strategic UX Research changes all that. 
+                    </h3>
+                    <p>Your team stops guessing because they’ve built expertise in who your users and customers are, what they need, what their current experiences are, and what their future experiences could be.
+                    </p>
+                    <p>When your team has all that knowledge about users and customers at their fingertips, you no longer have to guess. Your deep understanding answers any questions just as you realize you have them.
+                    </p>
+                    <p>Most importantly, you get the right products and services into the market quickly because having confidence in what you need to deliver is a production accelerator. Plus, you have solid outcome-driven UX metrics demonstrating how every new release improves your customers’ and users’ lives. Improving people’s lives increases their love and loyalty to your brand and products.
                     </p>
 
-                    <p>Metrics like the time an average user spends on a page, click-through rates, bounce rates, or even conversion rates only indicate what someone did, not whether they had a great experience while doing it. For example, you don’t know if a longer time on a page helped the customer understand your offerings or if the page was confusing and difficult to navigate. Both would take longer and make for an unclear metric without a good story.
-                    </p>
+                    <h3>Build your Strategic UX Research practice today.
+                    </h3>
 
-                    <p>Measurements of how users feel about you, like their satisfaction (C-SAT), their loyalty (Net Promoter Score), or their assessment of the design’s usability (System Usability Score), don’t tell you anything about the experience your users are having. Their lack of definition can’t separate a poor experience from a bad day with nothing to do with you. And they don’t guide you on what to do differently in your design.
-                    </p>
-
-                    <p>UX folks pick these metrics not because they’re effective at telling a compelling story but because they are easy to generate data for. Unfortunately, these metrics don’t help you make your case about your UX efforts’ significant contributions to your organization’s success.
+                    <p>Turn your organization into the world’s foremost experts on what your customers and users need and want. Accelerate your strategic decision-making capabilities with increased confidence from a shared understanding of your users' experiences. No more guessing.
                     </p>
                 </div>
                 <div>
@@ -68,7 +71,7 @@ export default function Research() {
             </TestComponent >
 
 
-            <RightContent>
+            {/* <RightContent>
                 <div>
                     <img src="/images/goals.png" alt="Jared" className="left-content-image" />
                 </div>
@@ -96,7 +99,7 @@ export default function Research() {
 
                     <Link to="/topics">Check out everything you’ll learn in this course.</Link>
                 </div>
-            </RightContent>
+            </RightContent> */}
             <div className="horizontal-modal-grey-container">
                 < HorizontalCohortSelector />
             </div>

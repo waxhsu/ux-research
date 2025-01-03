@@ -32,7 +32,7 @@ export default function Cohort2() {
                 <div className="test-component-content-container">
                     <img src="./images/UXresearchImg.png" alt="Advanced Strategic UX Research" />
                     <button className="btn btn-shadow test-component-purchase button cohortSelector-button-link"> 
-                        <Link to="/cohort1-schedule" className="cohortSelector-button-link">
+                        <Link to="/cohort2-schedule" className="cohortSelector-button-link">
                         February Schedule
                         </Link></button>
                 </div>
