@@ -81,6 +81,7 @@ export default function Topics() {
                     <div key={`topic-pair-${index}`}>
                         <LeftContent>
                             <div className="">
+                                <h3>{topic.topicName1}</h3>
                                 <ReactMarkdown>{topic.rich1}</ReactMarkdown>
                             </div>
                             <div>
@@ -108,6 +109,7 @@ export default function Topics() {
                                 />
                             </div>
                             <div className="">
+                                <h3>{topic.topicName2}</h3>
                                 <ReactMarkdown>{topic.rich2}</ReactMarkdown>
                             </div>
                         </RightContent>

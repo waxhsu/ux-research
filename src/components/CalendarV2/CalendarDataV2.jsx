@@ -129,6 +129,9 @@ export const fetchCohort1 = async () => {
             start: record.fields.CohortOutput1,
             end: record.fields.CohortOutput2,
 
+            topicName1: record.fields.TopicName1,
+            topicName2: record.fields.TopicName2,
+
             name1: record.fields.Name1,
             rich1: record.fields.RichText1,
             date1: record.fields.DateOutput1,
