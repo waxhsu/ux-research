@@ -18,7 +18,7 @@ export default function Topics() {
     useEffect(() => {
         const loadCohortData = async () => {
             const courseCohortTopics = await fetchCohort1();
-            setCohortTopics(courseCohortTopics);
+            setCohortTopics(courseCohortTopics.sort((a, b) => a.week - b.week));
         };
         loadCohortData();
     }, []);
