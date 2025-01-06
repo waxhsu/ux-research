@@ -77,6 +77,7 @@ export default function Topics() {
                 <VerticalCohortSelector />
             </TestComponent>
             {cohortTopics.map((topic, index) => {
+                
                 return (
                     <div key={`topic-pair-${index}`}>
                         <LeftContent>
