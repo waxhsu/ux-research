@@ -8,7 +8,6 @@
     margin-top: 1em;
 }
 
-
 .scheduleTitle {
     display: flex;
     justify-content: space-between;
@@ -18,12 +17,10 @@
 .courseSchedule-container {
     min-width: 50%;
 }
-.courseSchedule-container h1{
+.courseSchedule-container h1 {
     font-size: 2.25rem;
     font-weight: 800;
 }
-
-
 
 .timezone-container {
     padding-top: 1em;
@@ -32,7 +29,7 @@
     align-items: flex-end;
 }
 
-.timezone-container p{
+.timezone-container p {
     text-align: right;
     /* border: red solid 2px; */
     font-size: 12px;
@@ -51,12 +48,6 @@ select {
     font-weight: 700;
     width: fit-content;
 }
-
-
-
-
-
-
 
 #scheduleCard {
     display: flex;
@@ -106,7 +97,7 @@ select {
 }
 
 .clickDetails {
-    padding: 0 .5em;
+    padding: 0 0.5em;
     font-weight: 400;
     text-decoration: underline;
 }
@@ -126,7 +117,7 @@ select {
     padding: 15px 30px 20px;
 }
 
-.topicDetails p{
+.topicDetails p {
     margin: 5px 0;
 }
 
@@ -144,57 +135,51 @@ select {
     font-weight: 700;
 }
 
-.topicDetails>ul {
+.topicDetails > ul {
     line-height: 25px;
     padding-left: 25px;
-    margin: 0 .5rem 0 0;
+    margin: 0 0.5rem 0 0;
     max-width: 100%;
     list-style-position: outside;
 }
 
-.topicDetails>ul>li {
+.topicDetails > ul > li {
     margin: 5px 0 0 0;
     line-height: 25px;
 }
 
-
-
-
-
-
 @media only screen and (max-width: 768px) {
-
     .scheduleTitle {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding: 0 0 1em 0;
     }
-    
+
     .courseSchedule-container {
         min-width: 100%;
     }
-    .courseSchedule-container h1{
+    .courseSchedule-container h1 {
         margin: 0;
         font-size: 2.5rem;
         font-weight: 800;
     }
-    
+
     .timezone-container {
         align-items: flex-start;
         padding: 0;
     }
-    
-    .timezone-container p{
+
+    .timezone-container p {
         text-align: left;
         font-size: 12px;
         margin: 0;
     }
-    
+
     .timezoneText {
         padding: 0 0 0.75em 0;
     }
-    
+
     select {
         text-align: center;
         background-color: rgb(235, 235, 235);
@@ -203,10 +188,6 @@ select {
         font-weight: 700;
         width: fit-content;
     }
-
-
-
-
 
     /* Adjust the width for mobile devices */
     .courseSchedule p,
@@ -243,7 +224,7 @@ select {
         display: flex;
         flex-direction: column;
         align-items: left;
-        padding-left: 2.5em
+        padding-left: 2.5em;
     }
 
     .optionTime,
@@ -255,7 +236,6 @@ select {
 
     .subTitle {
         padding: 0.5rem 1rem;
-        
     }
 
     .clickDetails {
@@ -264,10 +244,10 @@ select {
 
     .topicDetails p {
         font-size: 14px;
-        padding: 0 .75em;
+        padding: 0 0.75em;
     }
 
-    .topicDetails>ul {
+    .topicDetails > ul {
         padding: 0 0 0 2em;
         font-size: 14px;
         list-style-position: outside;
