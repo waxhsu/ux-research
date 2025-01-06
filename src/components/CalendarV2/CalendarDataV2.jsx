@@ -57,45 +57,10 @@ const BASE_ID = process.env.REACT_APP_BASE_ID;
 
 const TABLE_ID_COHORT3 = process.env.REACT_APP_TABLE_ID_COHORT3;
 
-export const COHORT3_DATE_RANGE = [
-    {
-        start: `Mon ##`,
-        end: `Mon ##`,
-    },
-];
 
-export const fetchCohort3 = async () => {
-    const url = `https://api.airtable.com/v0/${BASE_ID}/${TABLE_ID_COHORT3}`;
-    const headers = { Authorization: `Bearer ${AIRTABLE_API_KEY}` };
 
-    try {
-        const response = await axios.get(url, { headers });
-        return response.data.records.map((record) => ({
-            week: record.fields.Week,
 
-            name1: record.fields.Name1,
-            rich1: record.fields.RichText1,
-            date1: record.fields.DateOutput1,
 
-            watchStart1: record.fields.WatchStart1,
-            watchEnd1: record.fields.WatchEnd1,
-            coachStart1: record.fields.CoachStart1,
-            coachEnd1: record.fields.CoachEnd1,
-
-            name2: record.fields.Name2,
-            rich2: record.fields.RichText2,
-            date2: record.fields.DateOutput2,
-
-            watchStart2: record.fields.WatchStart2,
-            watchEnd2: record.fields.WatchEnd2,
-            coachStart2: record.fields.CoachStart2,
-            coachEnd2: record.fields.CoachEnd2,
-        }));
-    } catch (error) {
-        console.error("Error fetching data from Airtable", error);
-        return [];
-    }
-};
 
 /// COHORT 3 END ///
 /// COHORT 3 END ///
@@ -106,13 +71,6 @@ export const fetchCohort3 = async () => {
 /// COHORT 2 START ///
 
 const TABLE_ID_COHORT2 = process.env.REACT_APP_TABLE_ID_COHORT2;
-
-export const COHORT2_DATE_RANGE = [
-    {
-        start: `Mon ##`,
-        end: `lol`,
-    },
-];
 
 export const fetchCohort2 = async () => {
     const url = `https://api.airtable.com/v0/${BASE_ID}/${TABLE_ID_COHORT2}`;
@@ -159,20 +117,13 @@ export const fetchCohort2 = async () => {
 
 const TABLE_ID_COHORT1 = process.env.REACT_APP_TABLE_ID_COHORT1;
 
-export const COHORT1_DATE_RANGE = [
-    {
-        start: `Jan 28`,
-        end: `Feb 20`,
-    },
-];
-
 export const fetchCohort1 = async () => {
     const url = `https://api.airtable.com/v0/${BASE_ID}/${TABLE_ID_COHORT1}`;
     const headers = { Authorization: `Bearer ${AIRTABLE_API_KEY}` };
 
     try {
         const response = await axios.get(url, { headers });
-        console.log(response.data.records);
+        // console.log(response.data.records);
         return response.data.records.map((record) => ({
             week: record.fields.Week,
             start: record.fields.CohortOutput1,

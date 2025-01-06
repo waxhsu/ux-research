@@ -16,7 +16,7 @@ export default function Cohort2() {
             <Navbar />
             <Header />
             < GreenArticle >
-                <h1>Join the February Cohort</h1>
+                <h1>Join Cohort 2</h1>
             </GreenArticle >
             <TestComponent >
                 <div className="width-500">
