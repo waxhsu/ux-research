@@ -16,7 +16,7 @@ export default function Cohort2() {
             <Navbar />
             <Header />
             < GreenArticle >
-                <h1>Join Cohort 2</h1>
+                <h1>Join the March Cohort</h1>
             </GreenArticle >
             <TestComponent >
                 <div className="width-500">
@@ -33,7 +33,7 @@ export default function Cohort2() {
                     <img src="./images/UXresearchImg.png" alt="Advanced Strategic UX Research" />
                     <button className="btn btn-shadow test-component-purchase button cohortSelector-button-link"> 
                         <Link to="/cohort2-schedule" className="cohortSelector-button-link">
-                        February Schedule
+                        March Schedule
                         </Link></button>
                 </div>
             </TestComponent >
@@ -64,7 +64,7 @@ export default function Cohort2() {
             </TestComponent >
 
             <SpiffyCheckout >
-            <h2>Join the February UX Research Cohort</h2>
+            <h2>Join the March UX Research Cohort</h2>
                 <spiffy-checkout url=
                 "https://centercentre.spiffy.co/checkout/advanced-strategic-ux-research-cohort2"></spiffy-checkout>
             </SpiffyCheckout>
