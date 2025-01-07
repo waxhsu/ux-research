@@ -10,8 +10,11 @@
 
 .header-background {
   background-color: rgb(247, 247, 247);
-  /* padding-top: 2em; */
+  padding-top: 2em;
   padding-bottom: 3em;
+  /* background-size: cover; */
+  background-position: center;
+  /* background-repeat: no-repeat; */
 }
 
 .header-nav {
